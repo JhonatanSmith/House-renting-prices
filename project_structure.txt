@@ -1,0 +1,28 @@
+PROJECT's STRUCTURE 
+
+/
+├── data/
+│   ├── raw/            # Raw data from scraping
+│   ├── processed/      # Cleaned data to analysis
+│   └── external/       # DExternal data (research and so on)
+│
+├── notebooks/ # Jupyter Notebooks to explore data and start the project
+│     
+│  
+│   
+│
+├── src/                # Source code
+│   ├── scraping/       # Selfexplained
+│   ├── data_cleaning/  # Selfexplained
+│   ├── analysis/       # Selfexplained
+│   ├── visualizations/ # Selfexplained
+│   └── utils/          # Common function utils
+│
+├── tests/              # Unit test
+│   ├── test_scraping.py
+│   └── test_analysis.py
+│
+├── requirements.txt    # All project's dependencies
+├── README.md           # Project's description
+├── .gitignore          # Git ignore
+└── Dockerfile          # Pending to add o not
