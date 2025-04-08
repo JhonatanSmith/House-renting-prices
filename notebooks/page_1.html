@@ -1,0 +1,61 @@
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow, noarchive"/>
+    <meta charset="UTF-8">
+    <title>Trovit</title>
+    <link rel="shortcut icon" href="https://statics.trovit.com/front/1df328e9/adform/assets/images/trovit/favicon.ico" type="image/x-icon"/>
+    <script src='https://www.google.com/recaptcha/api.js?hl=es&onload=onloadCallback&render=explicit' defer></script>
+</head>
+<body>
+<header>
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height: 0;display: block;">
+        <symbol viewBox="0 0 320 122" id="svg-trovit-logo">
+            <path d="M127.1 38.2c-20.9 0-37.8 17.7-37.8 39.5s16.9 39.5 37.8 39.5 37.8-17.7 37.8-39.5-16.9-39.5-37.8-39.5m0 56.4c-8.9 0-16.2-7.6-16.2-16.9 0-9.3 7.3-16.9 16.2-16.9 8.9 0 16.2 7.6 16.2 16.9 0 9.3-7.3 16.9-16.2 16.9M246.3 39.7h21.1v75.9h-21.1zM245.1 16.6c0-6.5 5.3-11.7 11.7-11.7 6.5 0 11.7 5.3 11.7 11.7 0 6.5-5.3 11.7-11.7 11.7-6.4 0-11.7-5.2-11.7-11.7M300.6 57.6H315V39.7h-14.4V17.9L279.5 23v64.9c0 12 1.7 29 27.5 29 3.8 0 7.4-.4 8-.5V99.7h-5.6c-4.6 0-8.8-2.5-8.8-9.7V57.6zM26.1 57.6h14.4V39.7H26.1V17.9L5 22.9v64.9c0 12 1.7 29 27.5 29 3.8 0 7.4-.4 8-.5V99.7h-5.6c-4.7 0-8.8-2.5-8.8-9.7V57.6zM201.1 88.5l15.1-48.8h23.4L214.3 108c-2.1 5.2-7.2 9.2-13.3 9.2-6.1 0-11.1-4-13.3-9.2l-25.2-68.2H186l15.1 48.7M82.7 38.2c-17.8 0-32.3 14.5-32.3 32.3v45.1h21.1v-42c0-9.4 5.8-14.5 14.5-14.5h1.9V38.2h-5.2z"/>
+        </symbol>
+    </svg>
+    <nav class="navigation">
+        <div class="navigation__wrapper">
+            <svg style="background-color: #0080FF; fill: #FFFFFF;">
+                <use xlink:href="#svg-trovit-logo"></use>
+            </svg>
+            <div class="elements"></div>
+        </div>
+    </nav>
+</header>
+    <div class="captcha">
+        <section class="captcha-section">
+            
+           <p>We are not sure if you are a human</p>
+           <p>Can you complete the test to allow your navigation?</p> 
+        
+            <div class="center" id="g-recaptcha"/>
+        </section>
+    </div>
+    <script>
+        var onloadCallback = function () {
+            grecaptcha.render('g-recaptcha', {
+                'sitekey': '6LfMqssqAAAAAAZBwAdNKhda-ayeZg7ybZfrWTsz',
+                'callback': verifyCallback
+            });
+        }
+
+        function verifyCallback() {
+            fetch("/adform/recaptcha", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json; charset=utf-8"
+                },
+                body: JSON.stringify({
+                    captchaResponse: grecaptcha.getResponse()
+                })
+            }).finally(() => {
+                location.reload();
+            });
+        }
+    </script>
+</body>
+</html>

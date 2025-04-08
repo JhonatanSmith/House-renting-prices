@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>OIN Visor</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+
+  <link href="https://unpkg.com/frappe-datatable@0.0.5/dist/frappe-datatable.min.css" rel="stylesheet">
+
+  <meta name="viewport" content="width=device-width, initial-scale=0.8" />
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+
+
+  <meta name="copyright" content="DANE - Departamento Administrativo Nacional de Estadística">
+
+  <meta name="keywords"
+    content="geoportal,dane,geo visor,geovisor,covid,covid-19,pandemia,colombia,riesgo,habitante,vulnerabilidad,departamental,vital,pib,precios corrientes,codigos municipios,dane mapas,mapas dane,visor dane,visor,geoportales y visores geograficos en colombia,visor dane">
+
+  <meta name="description"
+    content="Geovisor de análisis de la dinamica inmobiliaria, herramienta de apoyo en el catastro multipropósito." />
+
+  <meta name="robots" content="follow" />
+  <link reel="canonical" href="https://visor01.dane.gov.co/visor-vulnerabilidad/" />
+  <meta name="google-site-verification" content="GfeoIrutQaM3rz5HPrtXFtWSP1WigTdXG3ckxcFUVWc">
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-40249748-12"></script>
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.17.0/xlsx.full.min.js"></script>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.highcharts.com/modules/histogram-bellcurve.js"></script>
+  <script src="https://code.highcharts.com/modules/exporting.js"></script>
+  <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+
+
+  
+  <link rel="icon" href="https://geoportal.dane.gov.co/src/images/general/GEOPORTAL-DANE-favicon-32x32.png">
+
+
+
+
+  <meta property="og:title" content="Geovisor Observatorio Inmobiliario Nacional">
+  <meta property="og:type" content="website" />
+  <!-- <meta property="og:image" content="https://nowsoft.app/colectora/externo/visor/img/oin.png">
+  <meta property="og:url" content="https://nowsoft.app/colectora/externo/visor/"> -->
+  <meta name="twitter:card" content="Geovisor de análisis de la dinamica inmobiliaria, herramienta de apoyo en el catastro multipropósito.">
+
+  
+  <script>
+    function miFuncion() {
+        const params = new URL(document.location).searchParams;        
+        var valoresurl = new Map(params)
+        var ns = new URLSearchParams(valoresurl)        
+        const Token = ns.get('token');
+        let token = localStorage.setItem("token",Token);
+        const Id = ns.get('id');
+        const Rol = ns.get('rol');
+        const Longitud = ns.get('longitud');
+        const Latitud = ns.get('latitud');
+        const Capa = ns.get('capa');
+        if(Capa=="check_urb" || Capa=="check_rura"){
+          let acordion = document.getElementsByName("sesquiel")
+          acordion[0].classList.add('active')
+        } 
+        if(Capa=="check_ph" || Capa=="check_nph"){
+          let acordion = document.getElementsByName("jamundi")
+          acordion[0].classList.add('active')
+        }
+        if(Capa=="check_nph_soacha" || Capa=="check_ph_soacha"){
+          let acordion = document.getElementsByName("soacha")
+          acordion[0].classList.add('active')
+        }
+        if(Capa=="check_rural_cartago" || Capa=="check_nph_cartago"|| Capa=="check_ph_cartago"){
+          let acordion = document.getElementsByName("cartago")
+          acordion[0].classList.add('active')
+        }
+        if(Longitud != null && Latitud != null && Capa != null){
+          document.getElementById(Capa).checked = true;
+          let acordion = document.getElementsByName(Capa)
+          acordion[0].classList.add('active')                   
+        }else{
+          let acordion1 = document.getElementsByName("check_ofertas_obs")
+          acordion1[0].classList.add('active')
+          acordion1[1].style.maxHeight="320px"
+          document.getElementById("check_ofertas_obs").checked = true;          
+        }
+        if(Token == "null"){   
+          document.getElementById("observatorio1").style.display= "none";
+          document.getElementById("observatorio2").style.display= "none";
+          document.getElementById("observatorio3").style.display= "none";
+          document.getElementById("observatorio4").style.display= "none";
+          document.getElementById("observatorio6").style.display= "none";
+          document.getElementById("observatorio7").style.display= "none";
+          document.getElementById("observatorio8").style.display= "none";       
+        }else{
+          if(Id == null){
+            document.getElementById("observatorio1").style.display= "none";
+            document.getElementById("observatorio2").style.display= "none";
+            document.getElementById("observatorio3").style.display= "none";
+            document.getElementById("observatorio4").style.display= "none";
+            document.getElementById("observatorio6").style.display= "none";
+            document.getElementById("observatorio7").style.display= "none";
+            document.getElementById("observatorio8").style.display= "none";  
+            document.getElementById("observatorio9").style.display= "none";  
+          } else{
+            if(Rol > 1){ 
+            document.getElementById("observatorio9").style.display= "none"; 
+            document.getElementById("observatorio1").style.display= "block";
+            document.getElementById("observatorio2").style.display= "block";
+            document.getElementById("observatorio3").style.display= "block";
+            document.getElementById("observatorio4").style.display= "block";
+            document.getElementById("observatorio6").style.display= "block";
+            document.getElementById("observatorio7").style.display= "block";  
+            document.getElementById("observatorio8").style.display= "block";
+          }else{            
+            document.getElementById("observatorio1").style.display= "block";
+            document.getElementById("observatorio2").style.display= "block";
+            document.getElementById("observatorio3").style.display= "block";
+            document.getElementById("observatorio4").style.display= "block";
+            document.getElementById("observatorio6").style.display= "block";
+            document.getElementById("observatorio7").style.display= "block";  
+            document.getElementById("observatorio8").style.display= "block";
+            document.getElementById("observatorio9").style.display= "block";
+          }
+          }       
+        }
+       }
+    function urlFuncion(e){
+        const params = new URL(document.location).searchParams;
+        const Token = params.get('token');
+        const Id = params.get('id')
+        let url;
+        let elemento2 = document.getElementsByClassName('capa')
+        for (let i = 0; i < elemento2.length; i++) {        
+          if(e.id==elemento2[i].id){
+            url = location.href+'&'+elemento2[i].value+'&capa='+e.id
+          }
+        }        
+        var stateObj = { estado: "ok" };
+        history.pushState(stateObj, "página 2", url);       
+       }
+    window.onload=miFuncion;
+   </script>
+<link href="css/index1.css" rel="stylesheet"></head>
+
+<body>
+
+
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+
+
+      <!-- <div class="col-12 "><img clas="mx-auto" src="./img/DANE__Geovisor__icon__logoDANE__01.svg" id="logo"> </div> -->
+      <div class="head">
+        <div class="itm1">
+          <a href="https://www.dane.gov.co/" class="logourl">
+            <img class="mx-auto" src="https://geoportal.dane.gov.co/src/images/general/LogoDANE_Nuevo.svg" id="logo"alt="logo-dane"> 
+          </a>
+        </div>
+        <div class="itm1 offset-1">
+          <a href="https://geoportal.dane.gov.co/observatorio/" class="logourl">  
+           <img class="mx-auto" src="./img/oin.png" id="logo" alt="logo-geoportal">
+          </a>
+        </div>
+      </div>
+
+      <div class="row container-toolbar">
+        <div class="col-4 container-tool" id="ayuda">
+          <div class="round-tool">
+            <img src="./img/DANE__Geovisor__icon__ask.svg" style="cursor: pointer;" width="20" height="20" alt="icono-ayuda" class="icon-tool">
+            <img src="./img/DANE__Geovisor__icon__ask_selected.svg" style="cursor: pointer;" width="20" height="20" alt="icono-ayuda-seleccionada" class="icon-tool-selected">
+            <!-- <object type="image/svg+xml" data="./img/DANE__Geovisor__icon__ask.svg" width="20" height="20"
+              alt="icono-ayuda" class="icon-tool"></object>
+            <object type="image/svg+xml" data="./img/DANE__Geovisor__icon__ask_selected.svg" width="20" height="20"
+              alt="icono-ayuda-seleccionada" class="icon-tool-selected"></object> -->
+          </div>
+          <p class="center">Ayuda</p>
+        </div>
+        <div class="col-4 container-tool container-tool-active" id="consultas">
+          <div class="round-tool">
+            <img src="./img/DANE__Geovisor__icon__filter.svg" style="cursor: pointer;" width="20" height="20" alt="icono-consultas" class="icon-tool">
+            <img src="./img/DANE__Geovisor__icon__filter_selected.svg" style="cursor: pointer;" width="20" height="20" alt="icono-consultas-seleccionada" class="icon-tool-selected">
+            <!-- <object type="image/svg+xml" data="./img/DANE__Geovisor__icon__filter.svg" width="20" height="20"
+              alt="icono-consultas" class="icon-tool"></object>
+            <object type="image/svg+xml" data="./img/DANE__Geovisor__icon__filter_selected.svg" width="20" height="20"
+              alt="icono-consultas-seleccionada" class="icon-tool-selected"></object> -->
+          </div>
+          <p class="center">Consultas</p>
+        </div>
+        <div class="col-4 container-tool" id="mapas-base">
+          <div class="round-tool">
+            <img src="./img/DANE__Geovisor__icon__layers_selected.svg" style="cursor: pointer;" width="20" height="20" alt="icono-mapasbase-seleccionada" class="icon-tool-selected">
+            <img src="./img/DANE__Geovisor__icon__layers.svg" style="cursor: pointer;" width="20" height="20" alt="icono-mapasbase" class="icon-tool">
+            <!-- <object type="image/svg+xml" data="./img/DANE__Geovisor__icon__layers.svg" width="20" height="20"
+              alt="icono-mapasbase" class="icon-tool"></object> -->
+            <!-- <object type="image/svg+xml" data="./img/DANE__Geovisor__icon__layers_selected.svg" width="20" height="20"
+              alt="icono-mapasbase-seleccionada" class="icon-tool-selected"></object> -->
+              
+          </div>
+          <p class="center">Mapas base</p>
+        </div>
+
+
+      </div>
+
+      <div class="row" id="filtro-consultas">
+        <div class="row container-title">
+          <div class="col">
+            <h6>Filtro de ubicación</h6>
+          </div>
+        </div>
+
+        <!-- <div class="row">
+            <div class="col">
+  
+              <a id="comunicado" href="https://www.dane.gov.co/files/comunicados/Comunicado_visor_niveles_vulnerabilidad_covid19_Abril-15-2020.pdf" target="_blank" class="btn btn-sm"><i class="fas fa-info"></i> Comunicado de prensa </a>
+  
+              <button type="button" id="video" data-toggle="modal1"  class="btn btn-sm"><i class="fas fa-video"></i>  Tutorial </button>
+  
+            </div>
+  
+          </div> -->
+
+        <!-- <div class="col-12 mt-3">
+            <p class="p">Grupos por niveles de vulnerabilidad de fuente censal - información a nivel manzana</p>
+          </div> -->
+
+        <div class="col-12" id="ver_dep">
+          <label for="exampleFormControlSelect1" class="select-label">Departamento</label>
+          <select class="form-control select shadow-none" id="departamento">
+            <option value="">Seleccione...</option>
+          </select>
+        </div>
+
+        <div class="col-12" id="ver_mun">
+          <label for="exampleFormControlSelect1">Municipio</label>
+          <select class="form-control select shadow-none" id="municipio">
+            <option>Seleccione...</option>
+          </select>
+        </div>
+
+        <div class="row container-title">
+          <div class="col">
+            <h6>Capas temáticas</h6>
+          </div>
+        </div>
+
+        <div class="col-12 ">
+          <!-- <label for="exampleFormControlSelect1">Capas disponibles</label> -->
+
+          <div class="row">
+            <div class="col text-container">
+              Las capas temáticas le permiten visualizar en el mapa los datos del tema activado. Se recomienda mantener
+              una sola capa activa para para obtener una mejor visualización.
+            </div>
+          </div>
+
+          <button name="check_ofertas_obs" class="accordion"><i class="fas fa-map-marker-alt icon-accordion"></i> Ofertas por observatorio </button>
+          <div class="panel" name="check_ofertas_obs">
+            <div class="col-12">
+
+              <div class="grupo">
+                <p class="itm1">Activar capa geográfica</p>
+                <div class="form-check col-2">
+                  <label class="switchBtn">
+                    <input type="checkbox" class="capa" id="check_ofertas_obs">
+                    <span class="slide round"></span>
+                  </label>
+                </div>
+              </div>
+              
+              <div class="grupo">
+                <p class="itm1">Observatorio</p>
+                <div class="itm2">
+                  <select class="form-control select shadow-none" id="observatorio"></select>
+                </div>
+              </div>
+
+            <div class="grupo">
+                <p class="itm1">Tipo de inmueble</p>
+                <div class="itm2 ">
+                <select class="form-control select shadow-none" id="oferta">
+                </select>
+              </div>
+            </div>
+
+            <div class="grupo">
+              <p class="itm1">Rango valor</p>
+              <div id="my-drbar-container"></div>
+            </div>
+            
+            <div class="grupo">
+              <p class="itm1"></p>
+              <div class="itm3 ">
+                <p id="minval"></p>
+                <p id="maxval"></p>
+              </div>
+            </div>
+            
+
+
+            </div>
+          </div>
+
+          <button name="check_ofertas" class="accordion"><i class="fas fa-map-marker-alt icon-accordion"></i> Mercado Inmobiliario - Web Scraping</button>
+          <div class="panel" name="check_ofertas">
+            <div class="col-12">
+
+            <div class="grupo">
+
+                <p class="itm1">Activar capa geográfica</p>
+                <div class="form-check col-2">
+
+                  <label class="switchBtn">
+                    <input type="checkbox" class="capa" id="check_ofertas" checked>
+                    <span class="slide round"></span>
+                  </label>
+                </div>
+
+            </div>
+            
+
+            <div class="grupo">
+                <p class="itm1">Visualización</p>
+                <div class="itm2 ">
+                <select class="form-control select shadow-none" id="visual">
+                  <option value='tipo1'>Hexagonal 3D</option>
+                  <option value='tipo2'>Mapa de calor</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grupo">
+                <p class="itm1">Radio de agrupación</p>
+                <div class="itm2">
+                  <input type="range" min="0" max="100" step="0" value="100" class="form-control-range slider"
+                    id="transparencia_pobreza" name="transparencia_pobreza">
+                </div>
+            </div>
+
+            <div class="grupo">
+                <p class="itm1">Tipo de inmueble</p>
+                <div class="itm2 ">
+                <select class="form-control select shadow-none" id="oferta">
+                  <option value='all'>Todo</option>
+                  <option value='Penthouse'>Penthouse</option>
+                  <option value='Apartamento'>Apartamento</option>
+                  <option value='Consultorio'>Consultorio</option>
+                  <option value='Apartaestudio'>Apartaestudio</option>
+                  <option value='Edificio'>Edificio</option>
+                  <option value='Casalote_lote'>Casalote_lote</option>
+                  <option value='Local'>Local</option>
+                  <option value='Casa'>Casa</option>
+                  <option value='Parqueadero'>Parqueadero</option>
+                  <option value='Casalote'>Casalote</option>
+                  <option value='Lote'>Lote</option>
+                  <option value='Oficina'>Oficina</option>
+                  <option value='Bodega'>Bodega</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="grupo">
+              <p class="itm1">Rango valor</p>
+              <div id="my-drbar-container"></div>
+            </div>
+
+            <div class="grupo">
+              <p class="itm1"></p>
+              <div class="itm3 ">
+                <p id="minval">$0</p>
+                <p id="maxval">$3.000.000.000</p>
+
+              </div>
+            </div>
+
+            <div class="grupo">
+              <p class="itm1">Área (m2)</p>
+              <div id="my-drbar-container1"></div>
+            </div>
+
+            <div class="grupo">
+              <p class="itm1"></p>
+              <div class="itm3 ">
+                <p id="minval1">0</p>
+                <p id="maxval1">5000</p>
+              </div>
+            </div>
+
+
+            <div class="grupo">
+              <p class="itm1">Nota metodológica</p>
+              <div>
+                <button class="ver_nota" id="" data-toggle="modal" data-target="#exampleModalCenter1"><i class="fas fa-file-pdf"></i> Ver nota</button>
+              </div>
+            </div>
+
+            </div>
+          </div>
+
+          <div id="movility" >
+            <button class="accordion"><i class="fas fa-building"></i>  Censo de edificaciones (CEED)</button>
+            <div class="panel">
+              <div class="col-12">
+
+                <div class="grupo">
+
+                  <p class="itm1">Activar capa geográfica</p>
+                  <div class="form-check col-2">
+                    <!-- <input class="form-check-input checkbox-round" type="checkbox" value="" id="check_movilidad"> -->
+                    <label class="switchBtn">
+                      <input type="checkbox" value="" id="check_movilidad" name="check_movilidad">
+                      <span class="slide round"></span>
+                    </label>
+                  </div>
+
+                </div>
+
+                <div class="grupo">
+                  <p class="itm1">Transparencia</p>
+                  <div class="itm2">
+                    <input type="range" min="0" max="100" step="0" value="100" class="form-control-range slider"
+                      id="transparencia_movilidad" name="transparencia_movilidad">
+                  </div>
+                </div>
+                <div class="grupo">
+                  <p class="itm1">Mover trimestre</p>
+                  <div class="itm2">
+                    <input type="range" min="0" max="1" step="0" value="0" class="form-control-range slider"
+                      id="fecha_movilidad" name="fecha_movilidad">
+                      <!-- <select class="form-control select shadow-none" id="fecha_movilidad" name="fecha_movilidad">
+                        <option value="">Elige trimestre</option>
+                      </select> -->
+                  </div>
+                </div>
+                <div class="grupo1">
+                  <p class="itm1">Trimestre</p>
+                  <div class="itm2">
+                    <p class="texto_fecha">2019-1</p>
+                  </div>
+                  <!-- <div class="playpause itm3">
+                    <input type="checkbox" value="None" id="play_movilidad" name="check" checked />
+                    <label for="play_movilidad" tabindex=1></label>
+                  </div> -->
+                </div>
+
+                <div class="grupo">
+                  <p class="itm1">Nota metodológica</p>
+                  <div>
+                    <button class="ver_nota" id="" data-toggle="modal" data-target="#exampleModalCenter3"><i class="fas fa-file-pdf"></i> Ver nota</button>
+                  </div>
+                </div>
+                <div class="grupo">
+
+                  <p class="itm1">Descargar datos</p>
+                  <div>
+                    <button class="ver_nota" id="descargarceed"><i class="fas fa-arrow-alt-circle-down"></i> Descargar</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+<!--
+          <button class="accordion"><i class="fas fa-building icon-accordion"></i> Apartamentos por área</button>
+          <div class="panel">
+            <div class="col-12">
+
+              <div class="grupo">
+
+                <p class="itm1">Activar tema</p>
+                <div class="form-check col-2">
+
+                  <label class="switchBtn">
+                    <input type="checkbox" value="" id="check_riesgo" name="check_riesgo">
+                    <span class="slide round"></span>
+                  </label>
+                </div>
+
+              </div>
+
+              <div class="grupo">
+                <p class="itm1">Transparencia</p>
+                <div class="itm2 ">
+                  <input type="range" min="0" max="100" step="0" value="100" class="form-control-range slider"
+                    id="transparencia_riesgo" name="transparencia_riesgo">
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <button class="accordion"><i class="fas fa-home icon-accordion"></i> Casas (NPH) por rango de valor m2</button>
+          <div class="panel">
+            <div class="col-12">
+
+              <div class="grupo">
+
+                <p class="itm1">Activar tema</p>
+                <div class="form-check col-2">
+                  <label class="switchBtn">
+                    <input type="checkbox" value="" id="check_embarazo">
+                    <span class="slide round"></span>
+                  </label>
+                </div>
+
+              </div>
+
+              <div class="grupo">
+                <p class="itm1">Transparencia</p>
+                <div class="itm2 ">
+                  <input type="range" min="0" max="100" step="0" value="100" class="form-control-range slider"
+                    id="transparencia_embarazo">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          
+          <button class="accordion"><i class="fas fa-car icon-accordion"></i> Apartamentos por número de parqueaderos 
+          </button>
+          <div class="panel">
+            <div class="col-12">
+
+              <div class="grupo">
+
+                <p class="itm1">Activar tema</p>
+                <div class="form-check col-2">
+                  <label class="switchBtn">
+                    <input type="checkbox" value="" id="check_empleo">
+                    <span class="slide round"></span>
+                  </label>
+                </div>
+
+              </div>
+
+              <div class="grupo">
+                <p class="itm1">Transparencia</p>
+                <div class="itm2 ">
+                  <input type="range" min="0" max="100" step="0" value="100" class="form-control-range slider"
+                    id="transparencia_empleo">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          -->
+
+          <button class="accordion"><i class="fas fa-map-marked-alt"></i> Diferencia Unidades prediales</button>
+          <div class="panel">
+            <div class="col-12">
+              <div class="grupo">
+                <p class="itm1">Activar capa geográfica (Urbano)</p>
+                <div class="form-check col-2">
+                  <label class="switchBtn">
+                    <input type="checkbox" value="" id="check_dif_urbano" name="check_dif_urbano">
+                    <span class="slide round"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="grupo">
+                <p class="itm1">Activar capa geográfica (Rural)</p>
+                <div class="form-check col-2">
+                  <label class="switchBtn">
+                    <input type="checkbox" value="" id="check_dif_rural" name="check_dif_rural">
+                    <span class="slide round"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="grupo">
+                <p class="itm1">Transparencia</p>
+                <div class="itm2 ">
+                  <input type="range" min="0" max="100" step="0" value="100" class="form-control-range slider"
+                    id="transparencia_dif" name="transparencia_dif">
+                </div>
+              </div>
+              <div class="grupo">
+                <p class="itm1">Nota metodológica</p>
+                <div>
+                  <button class="ver_nota" id="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fas fa-file-pdf"></i> Ver nota</button>
+                </div>
+              </div>
+
+              <div class="grupo">
+
+                <p class="itm1">Descargar datos</p>
+                <div>
+                  <button class="ver_nota" id=""> <a href="https://geoportal.dane.gov.co/descargas/observatorio/dif_censales.zip"><i class="fas fa-arrow-alt-circle-down"></i> Descargar</a> </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <button class="accordion"><i class="fas fa-bed icon-accordion"></i> Mapa de calor integrales de apartamentos Bogotá</button>
+          <div class="panel">
+            <div class="col-12">
+
+              <div class="grupo">
+
+                <p class="itm1">Activar capa geográfica</p>
+                <div class="form-check col-2">
+
+                  <label class="switchBtn">
+                    <input type="checkbox" value="" id="check_adulto60" name="check_adulto60">
+                    <span class="slide round"></span>
+                  </label>
+                </div>
+
+              </div>
+
+              <div class="grupo">
+                <p class="itm1">Transparencia</p>
+                <div class="itm2 ">
+                  <input type="range" min="0" max="100" step="0" value="100" class="form-control-range slider"
+                    id="transparencia_adulto60" name="transparencia_adulto60">
+                </div>
+              </div>
+              <div class="grupo">
+                <p class="itm1">Nota metodológica</p>
+                <div>
+                  <button class="ver_nota" id="" data-toggle="modal" data-target="#exampleModalCenter2"><i class="fas fa-file-pdf"></i> Ver nota</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <button class="accordion"><i class="fas fa-male icon-accordion"></i> Valores de referencia por manzana (UAECD)</button>
+          <div class="panel">
+            <div class="col-12">
+
+              <div class="grupo">
+
+                <p class="itm1">Activar capa geográfica</p>
+                <div class="form-check col-2">
+
+                  <label class="switchBtn">
+                    <input type="checkbox" value="" id="check_adulto70" name="check_adulto70">
+                    <span class="slide round"></span>
+                  </label>
+                </div>
+
+              </div>
+
+              <div class="grupo">
+                <p class="itm1">Transparencia</p>
+                <div class="itm2 ">
+                  <input type="range" min="0" max="100" step="0" value="100" class="form-control-range slider"
+                    id="transparencia_adulto70" name="transparencia_adulto70">
+                </div>
+              </div>
+
+            </div>
+          </div>
+<!-- inicio -->         
+
+          <button id="observatorio9" class="accordion"><i class="fas fa-map-marked-alt"></i>Mercado Notariado Inmobiliario</button>
+          <div class="panel">
+            <div class="col-12">
+              <div class="grupo">
+                <p class="itm1">Activar capa geográfica</p>
+                <div class="form-check col-2">
+                  <label class="switchBtn">
+                    <input type="checkbox" value="" id="check_dif_test" name="check_dif_test">
+                    <span class="slide round"></span>
+                  </label>
+                </div>
+              </div>
+              <div class="grupo">
+                <p class="itm1">Transparencia</p>
+                <div class="itm2 ">
+                  <input type="range" min="0" max="100" step="0" value="100" class="form-control-range slider"
+                    id="transparencia_dif" name="transparencia_dif">
+                </div>
+              </div>
+              <div class="grupo">
+                <p class="itm1">Nota metodológica</p>
+                <div>
+                  <button class="ver_nota" id="" data-toggle="modal" data-target="#exampleModalCenter"><i class="fas fa-file-pdf"></i> Ver nota</button>
+                </div>
+              </div>
+
+              <div class="grupo">
+
+                <p class="itm1">Descargar datos</p>
+                <div>
+                  <button class="ver_nota" id=""> <a href="https://geoportal.dane.gov.co/descargas/observatorio/dif_censales.zip"><i class="fas fa-arrow-alt-circle-down"></i> Descargar</a> </button>
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- Fin -->
+<!--
+
+
+          <button class="accordion"> <i class="fas fa-clinic-medical icon-accordion"></i> Centros médicos</button>
+          <div class="panel">
+            <div class="col-12">
+
+              <div class="grupo">
+                <p class="itm1">Activar</p>
+                <div class="form-check col-2">
+
+                  <label class="switchBtn">
+                    <input type="checkbox" value="" id="check_ips" name="check_ips">
+                    <span class="slide round"></span>
+                  </label>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <button class="accordion"> <i class="fas fa-h-square icon-accordion"></i> Hoteles</button>
+          <div class="panel">
+            <div class="col-12">
+
+              <div class="grupo">
+                <p class="itm1">Activar</p>
+                <div class="form-check col-2">
+
+                  <label class="switchBtn">
+                    <input type="checkbox" value="" id="check_hotel" name="check_hotel">
+                    <span class="slide round"></span>
+                  </label>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+
+
+
+
+
+          <div id="loader-capa">
+
+          </div>
+
+          <div id="movility" style="display:none">
+            <button class="accordion"><i class="fas fa-car-side icon-accordion"></i> Movilidad</button>
+            <div class="panel">
+              <div class="col-12">
+
+                <div class="grupo">
+
+                  <p class="itm1">Activar </p>
+                  <div class="form-check col-2">
+
+                    <label class="switchBtn">
+                      <input type="checkbox" value="" id="check_movilidad" name="check_movilidad">
+                      <span class="slide round"></span>
+                    </label>
+                  </div>
+
+                </div>
+
+                <div class="grupo">
+                  <p class="itm1">Transparencia</p>
+                  <div class="itm2 ">
+                    <input type="range" min="0" max="100" step="0" value="100" class="form-control-range slider"
+                      id="transparencia_movilidad" name="transparencia_movilidad">
+                  </div>
+                </div>
+                <div class="grupo">
+                  <p class="itm1">Fecha</p>
+                  <div class="itm2 ">
+                    <input type="range" min="0" max="1" step="0" value="0" class="form-control-range slider"
+                      id="fecha_movilidad" name="fecha_movilidad">
+                  </div>
+                </div>
+                <div class="grupo">
+                  <p class="itm1">Fecha</p>
+                  <div class="itm1 ">
+                    <p class="texto_fecha">2020-03-02</p>
+                  </div>
+                  <div class="playpause">
+                    <input type="checkbox" value="None" id="play_movilidad" name="check" checked />
+                    <label for="play_movilidad" tabindex=1></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+-->
+
+
+
+
+
+          <!--  
+          <button class="accordion"> <i class="fas fa-mobile-alt"></i> Encuestas CoronaApp</button>
+          <div class="panel">
+            <div class="col-12">
+  
+              <div class="grupo">
+                <p class="itm1">Activar</p>
+                <div class="form-check col-2">
+                  <input class="form-check-input checkbox-round" type="checkbox" value="" id="check_app">
+                </div>
+              </div>
+  
+  
+            </div>
+          </div>
+  -->
+        </div>
+
+        <!--
+        <div class="row container-title">
+          <div class="col">
+            <h6>Resultados temáticos</h6>
+          </div>
+        </div>
+
+        <div class="cuadro row">
+          <div class="col-12">
+            <p class="titulo_cuadro">Diagramas</p>
+          </div>
+
+          <div class="col-12 pt-2">
+            <div class="diagrama" id="chart2"></div>
+          </div>
+          <div class="col-12 pt-2">
+            <div class="diagrama" id="chart3"></div>
+          </div>
+          <div class="col-12 pt-2">
+            <div class="diagrama" id="chart4"></div>
+          </div>
+          <div class="col-12 pt-2">
+            <div class="diagrama" id="chart5"></div>
+          </div>
+          <div class="col-12 pt-2">
+            <div class="diagrama" id="chart6"></div>
+          </div>
+          <div class="col-12 pt-2">
+            <div class="diagrama" id="chart7"></div>
+          </div>
+        </div>
+-->
+
+      </div>
+
+      <div class="row" id="filtro-mapas" style="display:none;">
+        <div class="row container-title">
+          <div class="col">
+            <h6>Mapas base</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-container">
+            Seleccione el tipo de mapa base que desea visualizar
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <ul class="basemap__list">
+              <li class="basemap__list__item">
+                <input type="radio" id="noche" name="radioBaseMap" value="Noche" checked>
+                <label for="noche">
+                  <div class="basemap__btn">
+                    <img src="./img/Noche.png" class="basemap__img" alt="" />
+                    <p class="basemap__name">Noche</p>
+                  </div>
+                </label>
+              </li>
+              <li class="basemap__list__item">
+                <input type="radio" id="gris" name="radioBaseMap" value="Gris">
+                <label for="gris">
+                  <div class="basemap__btn">
+                    <img src="./img/gris.png" class="basemap__img" alt="" />
+                    <p class="basemap__name">Gris</p>
+                  </div>
+                </label>
+              </li>
+              <li class="basemap__list__item">
+                <input type="radio" id="osm" name="radioBaseMap" value="OSM">
+                <label for="osm">
+                  <div class="basemap__btn">
+                    <img src="./img/OSM.png" class="basemap__img" alt="" />
+                    <p class="basemap__name">OSM</p>
+                  </div>
+                </label>
+              </li>
+              <li class="basemap__list__item">
+                <input type="radio" id="satelital" name="radioBaseMap" value="Satelital">
+                <label for="satelital">
+                  <div class="basemap__btn">
+                    <img src="./img/Satelital.png" class="basemap__img" alt="" />
+                    <p class="basemap__name">Satelital</p>
+                  </div>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+
+
+      <!-- <div class="row">
+          <div class="col">
+
+            <a id="nota" href="https://www.dane.gov.co/files/comunicados/Nota_metodologica_indice_de_vulnerabilidad.pdf" target="_blank" class="btn btn-sm"><i class="far fa-sticky-note"></i> Nota metodológica </a>
+
+            <a href="https://geoportal.dane.gov.co/descargas/vulnerabilidad/VULNRB_IPMxMZ.zip" download id="download_ipm"  class="btn btn-sm"><i class="fas fa-file-download"></i> Descargar shapefile </a>
+
+
+          </div>
+
+        </div> -->
+
+
+      <!-- <div class="col-12 "><img clas="mx-auto" src="./img/gobierno.jpg" id="logo_gobierno" alt="logo-gobierno"> </div> -->
+
+
+      <!--
+          <div class="row">
+            <div class="col">
+              <button type="button" data-toggle="modal" id="acerca"  class="btn btn-sm"><i class="fas fa-info"></i> Acerca </button>
+  
+            </div>
+  
+          </div>
+        -->
+
+
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="d-flex align-items-center">
+            <button class="btn" id="menu-toggle"><i class="fas fa-bars"></i></button>
+            <h3 id="titulo" class="ml-3">Geovisor de análisis inmobiliario</h3>
+          </div>
+          
+          <div class=" d-flex container-tool">
+            <div class="round-tool">
+              <img src="./img/DANE__Geovisor__icon__user_selected.svg" style="cursor: pointer;" width="20" height="20" alt="icono-user-seleccionada" class="icon-tool-selected">
+              <img src="./img/DANE__Geovisor__icon__user.svg" style="cursor: pointer;" width="20" height="20" alt="icono-user" class="icon-tool">
+            </div>
+          </div>
+      </div>
+
+        <div id="state-legend" class="legend">
+          <h6 id="title-legend">Leyenda</h6>
+          <button class="accordion" id="panel_ipm">Tipo de inmueble</button>
+          <div class="panel leg">
+            <div><span style= " background-color: rgb(19, 150, 77)"></span>Penthouse</div>
+            <div><span style= " background-color: rgb(104, 162, 231)"></span>Apartamento</div>
+            <div><span style= " background-color: rgb(231, 196, 104)"></span>Consultorio</div>
+            <div><span style= " background-color: rgb(231, 104, 229)"></span>Apartaestudio</div>
+            <div><span style= " background-color: rgb(54, 167, 228)"></span>Edificio</div>
+            <div><span style= " background-color: rgb(25, 138, 97)"></span>Casalote_lote</div>
+            <div><span style= " background-color: rgb(230, 212, 63)"></span>Local</div>
+            <div><span style= " background-color: rgb(231, 104, 116)"></span>Casa</div>
+            <div><span style= " background-color: rgb(173, 104, 231)"></span>Parqueadero</div>
+            <div><span style= " background-color: rgb(110, 53, 158)"></span>Casalote</div>
+            <div><span style= " background-color: rgb(72, 22, 195)"></span>Lote</div>
+            <div><span style= " background-color: rgb(93, 195, 22)"></span>Oficina</div>
+            <div><span style= " background-color: rgb(116, 22, 159)"></span>Bodega</div>
+            
+          </div>
+
+          <button class="accordion" id="panel_dif">Diferencias censales</button>
+          <div class="panel leg">
+            <div><span style="background-color: #4575b5"></span> Baja - 99% Confianza</div>
+            <div><span style="background-color: #849eb9"></span>Baja 95% Confianza</div>
+            <div><span style="background-color: #c0ccbe"></span>Baja 90% Confianza</div>
+            <div><span style="background-color: #f6f7f1"></span>No significativo</div>
+            <div><span style="background-color: #fab884"></span>Alta 90% Confianza</div>
+            <div><span style="background-color: #ed7552"></span>Alta 95% Confianza</div>
+            <div><span style="background-color: #d62f27"></span> Alta 99% Confianza</div>
+          </div>
+
+          <button class="accordion" id="panel_dif_obser">Diferencias de valor</button>
+          <div class="panel leg">
+            <div><span style="background-color: #08F4F8"></span> $ 0 - $ 9.999.999</div>
+            <div><span style="background-color: #08D4F8"></span> $ 10.000.000 - $ 49.999.999</div>
+            <div><span style="background-color: #08ACF8"></span> $ 50.000.000 - $ 99.999.999</div>
+            <div><span style="background-color: #086EF8"></span> $ 100.000.000 - $ 199.999.999</div>
+            <div><span style="background-color: #082CF8"></span> $ 200.000.000 - $ 299.999.999</div>
+            <div><span style="background-color: #F4F808"></span> $ 300.000.000 - $ 459.999.999</div>
+            <div><span style="background-color: #F3F781"></span> $ 500.000.000 - $ 999.999.999</div>
+            <div><span style="background-color: #F89208"></span> $ 1.000.000.000 - $ 2.999.999.999</div>
+            <div><span style="background-color: #F82508"></span> Mayor de $ 3.000.000.000</div>
+          </div>
+
+
+          <button class="accordion" id="panel_adulto60">Mapa calor apartamentos Bogotá</button>
+          <div class="panel leg">
+            <div><span style="background-color: rgb(97, 14, 82)"></span> > $8.3M</div>
+            <div><span style="background-color: rgb(190, 39, 151)"></span>$6M - $8.3M</div>
+            <div><span style="background-color: rgb(221, 44, 31)"></span>$4.3M - 6M</div>
+            <div><span style="background-color: rgb(254, 224, 123)"></span>$3M - $4.3M</div>
+            <div><span style="background-color: rgb(51, 221, 167)"></span>$2M - $3M</div>
+            <div><span style="background-color: rgb(19, 52, 112)"></span> $1.4M - $2M</div>
+          </div>
+
+      
+
+          <button class="accordion" id="panel_adulto70">Valores de referencia (UAECD)</button>
+          <div class="panel leg">
+            <div><span style="background-color: hsl(33, 89%, 70%)"></span>$0 - $500.000 m2</div>
+            <div><span style="background-color: hsl(69, 87%, 62%)"></span>$500.000 - $1.000.000 m2</div>
+            <div><span style="background-color: hsl(147, 77%, 57%)"></span>$1.000.000 - $1.500.000 m2</div>
+            <div><span style="background-color: hsl(177, 84%, 50%)"></span>$1.500.000 m2 - $2.500.0000 m2</div>
+            <div><span style="background-color: hsl(206, 91%, 50%)"></span>$2.500.0000 - $3.500.000 m2 </div>
+            <div><span style="background-color: hsl(252, 88%, 44%)"></span>$3.500.000 - $5.500.000 m2 </div>
+            <div><span style="background-color: hsl(275, 87%, 35%)"></span> > $5.000.0000 m2 </div>
+          </div>
+        </div>
+
+        <div id="mapa"></div>
+
+        <div id="info_fecha" style="display:none;">
+          Trimestre
+          <p class="texto_fecha">2019-1</p>
+          <div id="mov-colors1" class="row">
+            <div id="mov11"></div>
+            <div id="mov21"></div>
+          </div>
+
+          <div id="mov-valores1" class="row">
+            <p>0</p>
+            <p>5</p>
+            <p>10</p>
+            <p>50</p>
+            <p>>100</p>
+          </div>
+        </div>
+
+        <div id="panel-info">
+          <div id="content">
+
+            <button class="accordion" id="panel_est">Estadísticas</button>
+
+            <div class="panel leg">
+              <p id="title">Total ofertas</p>
+              <p id="total">0</p>
+              <p id="title">Datos en mapa</p>
+              <p id="mini">0</p>
+              <figure class="highcharts-figure">
+                <div id="container"></div>
+                <p class="highcharts-description">
+                    Histograma para determinar la distribución de las ofertas de mercado por valor integral de terreno.
+                </p>
+            </figure>
+              
+            </div>
+
+
+            
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+    
+
+<script type="text/javascript" src="js/index1.bundle.js"></script></body>
+
+
+
+
+<div class="modal" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true" id="modal1">
+  <div class="modal-dialog modal-lg modalwidth" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title w-100 text-center">Geovisor de Análisis Inmobiliario</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item tab tab-active">
+            <a class="nav-link tab-text" data-toggle="tab" role="tab" aria-controls="home">Guia rápida</a>
+          </li>
+
+          <li class="nav-item tab">
+            <a class="nav-link tab-text" data-toggle="tab" role="tab" aria-controls="messages"><i
+                class="fas fa-info"></i> Acerca de</a>
+          </li>
+          <li class="nav-item tab">
+            <a class="nav-link tab-text" data-toggle="tab" role="tab" aria-controls="settings"><i
+                class="fas fa-user"></i> Contáctenos</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane tab-pane-active" id="home" role="tabpanel">
+            <img src="https://geoportal.dane.gov.co/descargas/ayudas/ayuda-geovisor-analisis-inmobiliario.webp" alt="Instrucciones de uso para geovisores del Geoportal DANE" title="Instrucciones de uso para geovisores del Geoportal DANE">
+          </div>
+
+          <div class="tab-pane" id="messages" role="tabpanel">
+            <p class="help__content__text">
+            <div class="row">
+              <div class="col">
+                Herramienta en la que se puede analizar la dinámica inmobiliaria del país.
+                <br>
+                El visor facilita el análisis de la información inmobiliaria por parte de los gestores y operadores catastrales y el público en general interesado en el campo inmobiliario.
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col">
+                <h6>Nota metodológica</h6>
+                <br>
+                <a id="nota"
+                  href="https://geoportal.dane.gov.co/descargas/observatorio/documento.pdf"
+                  target="_blank" class="btn btn-sm"><i class="far fa-sticky-note"></i> Documento Observatorio </a>
+                <br>
+              </div>
+
+            </div>
+            </p>
+          </div>
+          <div class="tab-pane" id="settings" role="tabpanel">
+            <p class="help__content__text" itemprop="description">
+              Envíe su consulta por correo electrónico o tramite su petición, queja, reclamo, sugerencia o denuncia en
+              el formulario DANE
+            </p>
+            <p class="help__content__text" itemprop="description">
+              <a class="help__panelItem__textBold"
+                href="https://www.dane.gov.co/index.php/ventanilla-unica/pqr-s" target="_blank">Ventanilla única de PQRSD, Página PQRSD
+              </a>
+            </p>
+            <p class="help__content__text" itemprop="description">
+              <a class="help__panelItem__textBold" href="mailto:contacto@dane.gov.co?Subject=Contacto%20Dane" target="_blank" title="contacto@dane.gov.co">              
+                contacto@dane.gov.co            
+              </a>
+            </p>            
+          </div>
+        </div>
+
+
+        <!-- <iframe id="iframe" width="100%" height="450px" src="https://www.youtube.com/embed/Fw5vheB3bf0" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal" id="exampleModalCenter" tabindex="5" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Diferencias censales - Unidades prediales (IGAC)</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="col-12 "><img clas="mx-auto" src="./img/diferencias_censales.jpg" id="nota_img" alt="dif"> </div>
+
+        <p>Capa de información que muestra la diferencia entre la información de las unidades censales obtenidas en el Censo Nacional de Población y Vivienda - CNPV 2018 contra la información del número de predios de IGAC (2020). La información se presenta anonimizada a nivel de manzana en el sector urbano y en el sector rural por secciones rurales.</p>
+
+        <a id="comunicado"
+        href="https://geoportal.dane.gov.co/descargas/observatorio/Nota_HotSpot.pdf"
+        target="_blank" class="btn btn-sm"><i class="fas fa-info"></i> Nota Metodológica</a>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal" id="exampleModalCenter1" tabindex="5" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Mercado Inmobiliario</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="col-12 "><img clas="mx-auto" src="./img/mercado_inmobiliario.jpg" id="nota_img" alt="dif"> </div>
+
+        <p>Capa de información que muestra de forma anonimizada la información del mercado inmobiliario proveniente de Gestores y operadores catastrales, páginas web del mercado inmobiliario, avalúos, transacciones de Superintendencia de Notariado y Registro entre otros.</p>
+
+        <a id="comunicado"
+        href="https://geoportal.dane.gov.co/descargas/observatorio/nota_mercado.pdf"
+        target="_blank" class="btn btn-sm"><i class="fas fa-info"></i> Nota Metodológica</a>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="exampleModalCenter1fusa" tabindex="5" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Mercado Inmobiliario</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="col-12 "><img clas="mx-auto" src="./img/fusagasuga.png" id="nota_img" alt="dif"> </div>
+
+        <p>Capa de información que muestra los valores de referencia a nivel de barrio del municipio de Fusagasuga, suministrada directamente por el observatorio inmobilirio del gestor catastral encargado de dicho espacio geografico.</p>
+
+        <!-- <a id="comunicado"
+        href="https://nowsoft.app/colectora/externo/files_oin/nota_mercado.pdf"
+        target="_blank" class="btn btn-sm"><i class="fas fa-info"></i> Nota Metodológica</a> -->
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal" id="exampleModalCenter2" tabindex="5" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Mapa de calor valores integrales de Apartamentos en Bogotá</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="col-12 "><img clas="mx-auto" src="./img/kriging.jpg" id="nota_img" alt="dif"> </div>
+
+        <p>Capa de información que muestra el resultado del proceso de interpolación espacial Kriging sobre el mercado inmobiliario de apartamentos en Bogotá el cual ha sido ajustado mediante la información de puntos de interés como parques, estaciones del SITP, centros médicos y centros comerciales en el calculo del valor integral de construcción. Es una estadística experimental. </p>
+
+        <a id="comunicado"
+        href="https://geoportal.dane.gov.co/descargas/observatorio/kriging.pdf"
+        target="_blank" class="btn btn-sm"><i class="fas fa-info"></i> Nota Metodológica</a>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal" id="exampleModalCenter3" tabindex="5" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Información anonimizada Censo de edificaciones (CEED)</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="col-12 "><img clas="mx-auto" src="./img/ceed.jpg" id="nota_img" alt="dif"> </div>
+
+        <p>Capa de información anonimizada con el censo de edificaciones (CEED), disponible para su consulta de forma temporal y descarga desde el portal para los gestores catastrales.</p>
+
+        <a id="comunicado"
+        href="https://www.dane.gov.co/files/investigaciones/boletines/ceed/bol_ceed_Itrim22.pdf"
+        target="_blank" class="btn btn-sm"><i class="fas fa-info"></i> Boletin técnico (1er trimestre 2022)</a>
+
+        <a id="comunicado"
+        href="https://www.dane.gov.co/index.php/estadisticas-por-tema/construccion/censo-de-edificaciones"
+        target="_blank" class="btn btn-sm"><i class="fas fa-info"></i> Más información</a>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+<script src="https://unpkg.com/sortablejs@1.7.0/Sortable.min.js"></script>
+<script src="https://unpkg.com/clusterize.js@0.18.0/clusterize.min.js"></script>
+<!-- include the lib -->
+<script src="https://unpkg.com/frappe-datatable@0.0.5/dist/frappe-datatable.min.js"></script>
+
+
+
+</html>
