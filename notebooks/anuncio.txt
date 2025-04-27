@@ -5,7 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 
-    <link rel="shortcut icon" href="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/favicon.ico" type="image/x-icon"/>
 
     <link rel="dns-prefetch" href="//st1.trov.it/">
     <link rel="dns-prefetch" href="//img-ie-1.trovit.com">
@@ -678,7 +678,7 @@ button.swiper-pagination-bullet {
   overflow: hidden;
 }
 
-:root{--wl-border-radius-regular: 0.25rem}.price{display:flex}.price__old{display:flex;align-items:center;gap:0.3125rem}.price__old__amount{width:max-content;text-decoration:line-through}.price__old__decrease{display:flex;place-items:center;gap:0.3125rem}.price__old__decrease__percentage{color:#28a300;font-weight:700}.price__old__decrease svg{fill:#28a300}.price{display:flex}.price__old{display:flex;align-items:center;gap:0.3125rem}.price__old__amount{width:max-content;text-decoration:line-through}.price__old__decrease{display:flex;place-items:center;gap:0.3125rem}.price__old__decrease__percentage{color:#28a300;font-weight:700}.price__old__decrease svg{fill:#28a300}.price{margin-bottom:0.25rem;flex-direction:column}@media only screen and (min-width: 1024px){.price{align-items:end;margin-left:0}}.price__operation-type{font-weight:600;color:#333;margin-bottom:7px}.price__actual{color:#0080ff;font-size:20px;font-weight:700;line-height:1.5rem;white-space:nowrap}.price__old{margin-left:0.3125rem}.price__old__amount{line-height:1.1875rem}.price__old__decrease{font-size:12px;font-weight:500}.price__old__decrease__percentage{display:none}@media only screen and (min-width: 1024px){.price__old__decrease__percentage{display:block;color:#28a300}}@media only screen and (min-width: 760px){.price .price{justify-content:flex-end}.price .price__actual{line-height:1.5rem}.price .price__old__amount{line-height:1.1875rem;color:#666}}@media only screen and (min-width: 760px)and (min-width: 1024px){.price .price{justify-content:normal}}body>main div.wrapper>div.contents{width:100%}body>main div.wrapper>div.contents .few-results-title{font-weight:700;margin:10px;color:#424242}@media only screen and (min-width: 760px){body>main div.wrapper>div.contents{width:calc(100% - 300px)}body>main div.wrapper>div.contents .few-results-title{font-size:1.15rem;font-weight:700;margin-bottom:10px;color:#424242}}.snippet-listing{display:block;white-space:normal}.snippet-listing.visited{opacity:.7}.snippet-listing a{width:100%;display:flex;flex-direction:column;box-shadow:0 1px 2px #cdcdcd;border-radius:8px;margin-bottom:8px;background-color:#fff;height:100%;text-decoration:none;white-space:normal}.snippet-listing a:hover{text-decoration:none}.snippet-listing a .snippet-listing-image{background-color:#fff;font-size:16px;position:relative;border-top-left-radius:8px;border-top-right-radius:8px}.snippet-listing a .snippet-listing-image img{width:100%;height:100%;object-fit:cover;border-top-left-radius:8px;border-top-right-radius:8px;aspect-ratio:4/3}.snippet-listing a .snippet-listing-image .snippet-listing-image-right-label{position:absolute;top:0.875rem;right:0;height:1.625rem;background-color:#0080ff;padding:0 1rem 0 0.875rem;border-bottom-left-radius:5px;border-top-left-radius:5px;display:flex;align-items:center;gap:0.25rem;z-index:1;font-size:0.875rem;font-weight:700;line-height:1rem;color:#fff}.snippet-listing a .snippet-listing-image .snippet-listing-image-right-label::before{content:"";background-image:var(--snippet-listing-image-right-label);background-repeat:no-repeat;width:0.875rem;height:1.125rem}.snippet-listing a .snippet-listing-image .snippet-listing-image-new{position:absolute;top:0.875rem;left:0;height:26px;background-color:#f9f9f9;padding:0 16px 0 14px;border-bottom-right-radius:5px;border-top-right-radius:5px;display:flex;align-items:center;z-index:1}.snippet-listing a .snippet-listing-image .snippet-listing-image-new span{line-height:150%;font-size:14px;color:#3982ef;font-weight:700;text-transform:capitalize}.snippet-listing a .snippet-listing-image .snippet-listing-image-new[data-number="1"]{top:3.125rem}.snippet-listing a .snippet-listing-image .snippet-listing-image-cta{position:absolute;display:flex;flex-direction:row;justify-content:center;align-items:center;height:44px;background:rgba(0,0,0,.6);border-radius:4px;top:calc((100% - 44px)/2);right:0;margin-right:6px}.snippet-listing a .snippet-listing-image .snippet-listing-image-cta span{font-style:normal;font-weight:700;font-size:16px;line-height:18px;color:#fff;background-color:unset;padding:2px 10px}.snippet-listing a .snippet-listing-image .snippet-listing-image-cta img{width:initial;height:initial;border-radius:initial}.snippet-listing a .snippet-listing-image .snippet-listing-image-quantity{display:flex;padding:6px;background-color:#f9f9f9;border-radius:3px;color:#424242;position:absolute;bottom:15px;left:15px;font-size:12px;font-weight:500;justify-items:center;align-items:center;gap:0.1875rem}.snippet-listing a .snippet-listing-image .snippet-listing-image-quantity::before{content:"";background-image:var(--wl-number-photos-image);background-repeat:no-repeat;width:1.125rem;height:1.125rem}.snippet-listing a .snippet-listing-image{overflow:hidden}.snippet-listing a .snippet-listing-image .swiper-container{height:100%}.snippet-listing a .snippet-listing-image .swiper-container .swiper-slide-none{height:100%}.snippet-listing a .snippet-listing-image .swiper-container .swiper-button-next,.snippet-listing a .snippet-listing-image .swiper-container .swiper-button-prev{border-radius:6px;background-color:rgba(0,0,0,.4)}.snippet-listing a .snippet-listing-image .swiper-container .swiper-button-next:after,.snippet-listing a .snippet-listing-image .swiper-container .swiper-button-prev:after{color:#f9f9f9;font-size:16px;font-weight:700}.snippet-listing a .snippet-listing-image .swiper-pagination{display:flex;padding:6px;background-color:#f9f9f9;border-radius:3px;color:#424242;position:absolute;bottom:15px;left:15px;font-size:12px;font-weight:500;justify-items:center;align-items:center;gap:0.1875rem;z-index:1;width:fit-content}.snippet-listing a .snippet-listing-image .swiper-pagination::before{content:"";background-image:var(--wl-number-photos-image);background-repeat:no-repeat;width:1.125rem;height:1.125rem}.snippet-listing a .snippet-listing-content{height:auto;padding:0.875rem;display:flex;flex-direction:column}.snippet-listing a .snippet-listing-content .snippet-listing-content-header{height:auto}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title{display:flex;justify-content:space-between;gap:0.625rem;align-items:flex-start;margin-bottom:0.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left h2{align-self:stretch;flex-grow:1;font-weight:700;font-size:16px;line-height:18px;color:#424242;margin-right:10px;margin-top:5px;max-height:2.4em}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left span{font-size:16px;font-weight:700;color:#333;overflow:hidden;-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box;line-height:1.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left address{display:none}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-description{margin-bottom:0.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-description address{font-style:normal;font-weight:400;font-size:14px;line-height:1.0625rem;color:#333;white-space:normal;display:block;margin-top:3px;overflow:unset;margin-bottom:0.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-description p{display:none}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons{display:block;margin-top:0.25rem;margin-bottom:0.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul{display:flex;justify-content:flex-start;list-style:none;height:2rem;align-items:center}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul li{display:flex;align-items:center;margin-right:10px}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul li p{font-style:normal;font-weight:700;font-size:12px;line-height:14px;display:flex;align-items:center;color:#424242;margin:3px}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul li p span{display:none}.snippet-listing a .snippet-listing-content .snippet-listing-content-header-amenities{display:flex;flex-wrap:wrap;align-items:center;gap:0.25rem 0.5625rem;overflow:hidden;max-height:3.25rem;margin-bottom:0.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header-amenities span{padding:0.25rem;background-color:#f5f5f5;color:#7a7a7a;font-size:0.75rem;line-height:0.875rem;border-radius:0.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer-agency{display:inline-flex;align-content:center;width:100%}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer-premium-icon{margin-right:0.3125rem;background-color:#0a990a;border-radius:50%;min-height:1.5rem;min-width:1.5rem;max-width:1.5rem;width:1.5rem;height:1.5rem;gap:6.25rem;display:flex;justify-content:center;align-items:center}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer-premium-icon img{width:1.25rem;height:1.25rem;filter:invert(100%) sepia(0%) saturate(0%) hue-rotate(3deg) brightness(105%) contrast(102%)}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer span{display:block;clear:both;color:#949494;font-size:12px;font-style:normal;font-weight:700;line-height:0.9375rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer small{display:block;align-content:center;margin-top:0.125rem;text-transform:uppercase;text-overflow:ellipsis;overflow:hidden;-webkit-line-clamp:1;-webkit-box-orient:vertical;white-space:nowrap;clear:both;color:#949494;font-size:12px;font-style:normal;line-height:14px}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer button{display:none}.snippet-listing .extended-description{display:none;background-color:#fff;border-radius:0 0 8px 8px;box-shadow:0 1px 2px #cdcdcd;font-size:16px;height:160px;padding:16px;justify-content:space-between;color:#424242;flex-direction:column;align-items:center;-webkit-transform:translate3d(0, 0, 0);margin-bottom:8px;margin-top:-0.5rem}.snippet-listing .extended-description .extended-description-content{display:flex;align-items:start;justify-content:space-between;width:100%}.snippet-listing .extended-description .extended-description-content p{padding:0 10px 0 0;font-size:14px;line-height:16px}.snippet-listing .extended-description .extended-description-content button{margin:unset;padding:unset;border:none;background:none}.snippet-listing .extended-description .extended-description-content button svg{fill:#0080ff}.snippet-listing .extended-description .extended-description-go-to-details{margin-top:unset;width:100%;height:auto;align-items:center;border:1px solid #0080ff;border-radius:4px;color:#0080ff;text-align:center;text-transform:unset;font-weight:600;text-decoration:none;padding:10px}@media only screen and (min-width: 760px){.snippet-listing a{flex-direction:row;margin-bottom:24px;box-shadow:1px 1px 6px 0 rgba(0,0,0,.1)}.snippet-listing a:hover{cursor:pointer;box-shadow:1px 1px 6px 0 rgba(0,0,0,.3);text-decoration:none}.snippet-listing a:hover .snippet-listing-content-header-title-left span{text-decoration:underline}.snippet-listing a:hover .snippet-listing-content-footer div:last-child button{background-color:#0080ff;color:#fff;cursor:pointer}.snippet-listing a .snippet-listing-image{width:23.66625rem;border-top-left-radius:0.5rem;border-bottom-left-radius:0.5rem;border-top-right-radius:0;height:17.75rem;flex-shrink:0}.snippet-listing a .snippet-listing-image img{width:100%;height:100%;border-top-left-radius:8px;border-bottom-left-radius:8px;border-top-right-radius:0}.snippet-listing a .snippet-listing-image .snippet-listing-image-quantity{bottom:0.875rem;left:0.5rem}.snippet-listing a .snippet-listing-content{background-color:#fff;border-top-right-radius:8px;border-bottom-right-radius:8px;width:calc(100% - 378.66px);display:flex;flex-direction:column;justify-content:space-between;padding:0;height:auto}.snippet-listing a .snippet-listing-content .snippet-listing-content-header{padding:0.875rem;border-top-right-radius:0.5rem;height:initial}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title{display:flex;flex-direction:row;flex-wrap:nowrap;margin-bottom:0.5rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left{flex:3;flex-basis:90%;flex-shrink:1}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left h2{max-height:48px}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left span{font-size:16px;font-weight:700;overflow:hidden;-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left address{font-style:normal;font-weight:400;font-size:0.875rem;line-height:1.0625rem;color:#333;white-space:normal;display:block;overflow:unset;text-overflow:ellipsis;overflow:hidden;-webkit-line-clamp:1;-webkit-box-orient:vertical}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-right{flex:1;display:flex;flex-flow:column nowrap;justify-content:space-between;text-align:right;flex-basis:10%;flex-grow:1}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-right img{display:none}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-description address{display:none}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-description p{display:-webkit-box;color:#424242;font-size:12px;font-weight:500;word-wrap:break-word;word-break:break-word;overflow-wrap:break-word;text-overflow:ellipsis;overflow:hidden;-webkit-line-clamp:2;-webkit-box-orient:vertical}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons{margin:0}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul li p{font-weight:500}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul li p span{display:block;margin-left:3px}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul li p span.abbrev{display:none}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-amenities{padding:0.25rem 0;margin-bottom:0}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer{display:flex;margin:0;border-bottom-right-radius:0.5rem;border-top:0.0625rem solid #e3e3e3;height:3.75rem;padding:0.5rem 0.875rem 0.875rem 0.875rem;justify-content:space-between;align-items:center;gap:0.625rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div{display:flex;width:auto;height:fit-content}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div:first-child{flex-direction:column}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div:first-child span{font-weight:bold}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div:first-child small{margin-top:0;max-width:18.75rem;text-overflow:ellipsis;overflow:hidden;-webkit-line-clamp:1;-webkit-box-orient:vertical}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div:last-child{justify-content:flex-end;align-items:center}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div:last-child button{background-color:#fff;color:#0080ff;font-weight:bolder;border:2px solid #0080ff;text-align:center;font-size:1rem;line-height:1.25rem;height:2.5em;width:auto;padding:0.625rem;border-radius:6px;display:flex;justify-content:center;align-items:center}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div:last-child button:hover{background-color:#0080ff;color:#fff;cursor:pointer}}
+:root{--wl-border-radius-regular: 0.25rem}.price{display:flex}.price__old{display:flex;align-items:center;gap:0.3125rem}.price__old__amount{width:max-content;text-decoration:line-through}.price__old__decrease{display:flex;place-items:center;gap:0.3125rem}.price__old__decrease__percentage{color:#28a300;font-weight:700}.price__old__decrease svg{fill:#28a300}.price{display:flex}.price__old{display:flex;align-items:center;gap:0.3125rem}.price__old__amount{width:max-content;text-decoration:line-through}.price__old__decrease{display:flex;place-items:center;gap:0.3125rem}.price__old__decrease__percentage{color:#28a300;font-weight:700}.price__old__decrease svg{fill:#28a300}.price{margin-bottom:0.25rem;flex-direction:column}@media only screen and (min-width: 1024px){.price{align-items:end;margin-left:0}}.price__operation-type{font-weight:600;color:#333;margin-bottom:7px}.price__actual{color:#0080ff;font-size:20px;font-weight:700;line-height:1.5rem;white-space:nowrap}.price__old{margin-left:0.3125rem}.price__old__amount{line-height:1.1875rem}.price__old__decrease{font-size:12px;font-weight:500}.price__old__decrease__percentage{display:none}@media only screen and (min-width: 1024px){.price__old__decrease__percentage{display:block;color:#28a300}}@media only screen and (min-width: 760px){.price .price{justify-content:flex-end}.price .price__actual{line-height:1.5rem}.price .price__old__amount{line-height:1.1875rem;color:#666}}@media only screen and (min-width: 760px)and (min-width: 1024px){.price .price{justify-content:normal}}body>main div.wrapper>div.contents{width:100%}body>main div.wrapper>div.contents .few-results-title{font-weight:700;margin:10px;color:#424242}@media only screen and (min-width: 760px){body>main div.wrapper>div.contents{width:calc(100% - 300px)}body>main div.wrapper>div.contents .few-results-title{font-size:1.15rem;font-weight:700;margin-bottom:10px;color:#424242}}.snippet-listing{display:block;white-space:normal}.snippet-listing.visited{opacity:.7}.snippet-listing a{width:100%;display:flex;flex-direction:column;box-shadow:0 1px 2px #cdcdcd;border-radius:8px;margin-bottom:8px;background-color:#fff;height:100%;text-decoration:none;white-space:normal}.snippet-listing a:hover{text-decoration:none}.snippet-listing a .snippet-listing-image{background-color:#fff;font-size:16px;position:relative;border-top-left-radius:8px;border-top-right-radius:8px}.snippet-listing a .snippet-listing-image img{width:100%;height:100%;object-fit:cover;border-top-left-radius:8px;border-top-right-radius:8px;aspect-ratio:4/3}.snippet-listing a .snippet-listing-image .snippet-listing-image-right-label{position:absolute;top:0.875rem;right:0;height:1.625rem;background-color:#0080ff;padding:0 1rem 0 0.875rem;border-bottom-left-radius:5px;border-top-left-radius:5px;display:flex;align-items:center;gap:0.25rem;z-index:1;font-size:0.875rem;font-weight:700;line-height:1rem;color:#fff}.snippet-listing a .snippet-listing-image .snippet-listing-image-right-label::before{content:"";background-image:var(--snippet-listing-image-right-label);background-repeat:no-repeat;width:0.875rem;height:1.125rem}.snippet-listing a .snippet-listing-image .snippet-listing-image-new{position:absolute;top:0.875rem;left:0;height:26px;background-color:#f9f9f9;padding:0 16px 0 14px;border-bottom-right-radius:5px;border-top-right-radius:5px;display:flex;align-items:center;z-index:1}.snippet-listing a .snippet-listing-image .snippet-listing-image-new span{line-height:150%;font-size:14px;color:#3982ef;font-weight:700;text-transform:capitalize}.snippet-listing a .snippet-listing-image .snippet-listing-image-new[data-number="1"]{top:3.125rem}.snippet-listing a .snippet-listing-image .snippet-listing-image-cta{position:absolute;display:flex;flex-direction:row;justify-content:center;align-items:center;height:44px;background:rgba(0,0,0,.6);border-radius:4px;top:calc((100% - 44px)/2);right:0;margin-right:6px}.snippet-listing a .snippet-listing-image .snippet-listing-image-cta span{font-style:normal;font-weight:700;font-size:16px;line-height:18px;color:#fff;background-color:unset;padding:2px 10px}.snippet-listing a .snippet-listing-image .snippet-listing-image-cta img{width:initial;height:initial;border-radius:initial}.snippet-listing a .snippet-listing-image .snippet-listing-image-quantity{display:flex;padding:6px;background-color:#f9f9f9;border-radius:3px;color:#424242;position:absolute;bottom:15px;left:15px;font-size:12px;font-weight:500;justify-items:center;align-items:center;gap:0.1875rem}.snippet-listing a .snippet-listing-image .snippet-listing-image-quantity::before{content:"";background-image:var(--wl-number-photos-image);background-repeat:no-repeat;width:1.125rem;height:1.125rem}.snippet-listing a .snippet-listing-image{overflow:hidden}.snippet-listing a .snippet-listing-image .swiper-container{height:100%}.snippet-listing a .snippet-listing-image .swiper-container .swiper-slide-none{height:100%}.snippet-listing a .snippet-listing-image .swiper-container .swiper-button-next,.snippet-listing a .snippet-listing-image .swiper-container .swiper-button-prev{border-radius:6px;background-color:rgba(0,0,0,.4)}.snippet-listing a .snippet-listing-image .swiper-container .swiper-button-next:after,.snippet-listing a .snippet-listing-image .swiper-container .swiper-button-prev:after{color:#f9f9f9;font-size:16px;font-weight:700}.snippet-listing a .snippet-listing-image .swiper-pagination{display:flex;padding:6px;background-color:#f9f9f9;border-radius:3px;color:#424242;position:absolute;bottom:15px;left:15px;font-size:12px;font-weight:500;justify-items:center;align-items:center;gap:0.1875rem;z-index:1;width:fit-content}.snippet-listing a .snippet-listing-image .swiper-pagination::before{content:"";background-image:var(--wl-number-photos-image);background-repeat:no-repeat;width:1.125rem;height:1.125rem}.snippet-listing a .snippet-listing-content{height:auto;padding:0.875rem;display:flex;flex-direction:column}.snippet-listing a .snippet-listing-content .snippet-listing-content-header{height:auto}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title{display:flex;justify-content:space-between;gap:0.625rem;align-items:flex-start;margin-bottom:0.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left h2{align-self:stretch;flex-grow:1;font-weight:700;font-size:16px;line-height:18px;color:#424242;margin-right:10px;margin-top:5px;max-height:2.4em}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left span{font-size:16px;font-weight:700;color:#333;overflow:hidden;-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box;line-height:1.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left address{display:none}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-description{margin-bottom:0.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-description address{font-style:normal;font-weight:400;font-size:14px;line-height:1.0625rem;color:#333;white-space:normal;display:block;margin-top:3px;overflow:unset;margin-bottom:0.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-description p{display:none}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons{display:block;margin-top:0.25rem;margin-bottom:0.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul{display:flex;justify-content:flex-start;list-style:none;height:2rem;align-items:center}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul li{display:flex;align-items:center;margin-right:10px}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul li p{font-style:normal;font-weight:700;font-size:12px;line-height:14px;display:flex;align-items:center;color:#424242;margin:3px}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul li p span{display:none}.snippet-listing a .snippet-listing-content .snippet-listing-content-header-amenities{display:flex;flex-wrap:wrap;align-items:center;gap:0.25rem 0.5625rem;overflow:hidden;max-height:3.25rem;margin-bottom:0.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header-amenities span{padding:0.25rem;background-color:#f5f5f5;color:#7a7a7a;font-size:0.75rem;line-height:0.875rem;border-radius:0.25rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer-agency{display:inline-flex;align-content:center;width:100%}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer-premium-icon{margin-right:0.3125rem;background-color:#0a990a;border-radius:50%;min-height:1.5rem;min-width:1.5rem;max-width:1.5rem;width:1.5rem;height:1.5rem;gap:6.25rem;display:flex;justify-content:center;align-items:center}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer-premium-icon img{width:1.25rem;height:1.25rem;filter:invert(100%) sepia(0%) saturate(0%) hue-rotate(3deg) brightness(105%) contrast(102%)}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer span{display:block;clear:both;color:#949494;font-size:12px;font-style:normal;font-weight:700;line-height:0.9375rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer small{display:block;align-content:center;margin-top:0.125rem;text-transform:uppercase;text-overflow:ellipsis;overflow:hidden;-webkit-line-clamp:1;-webkit-box-orient:vertical;white-space:nowrap;clear:both;color:#949494;font-size:12px;font-style:normal;line-height:14px}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer button{display:none}.snippet-listing .extended-description{display:none;background-color:#fff;border-radius:0 0 8px 8px;box-shadow:0 1px 2px #cdcdcd;font-size:16px;height:160px;padding:16px;justify-content:space-between;color:#424242;flex-direction:column;align-items:center;-webkit-transform:translate3d(0, 0, 0);margin-bottom:8px;margin-top:-0.5rem}.snippet-listing .extended-description .extended-description-content{display:flex;align-items:start;justify-content:space-between;width:100%}.snippet-listing .extended-description .extended-description-content p{padding:0 10px 0 0;font-size:14px;line-height:16px}.snippet-listing .extended-description .extended-description-content button{margin:unset;padding:unset;border:none;background:none}.snippet-listing .extended-description .extended-description-content button svg{fill:#0080ff}.snippet-listing .extended-description .extended-description-go-to-details{margin-top:unset;width:100%;height:auto;align-items:center;border:1px solid #0080ff;border-radius:4px;color:#0080ff;text-align:center;text-transform:unset;font-weight:600;text-decoration:none;padding:10px}@media only screen and (min-width: 760px){.snippet-listing a{flex-direction:row;margin-bottom:24px;box-shadow:1px 1px 6px 0 rgba(0,0,0,.1)}.snippet-listing a:hover{cursor:pointer;box-shadow:1px 1px 6px 0 rgba(0,0,0,.3);text-decoration:none}.snippet-listing a:hover .snippet-listing-content-header-title-left span{text-decoration:underline}.snippet-listing a:hover .snippet-listing-content-footer div:last-child button{background-color:#0080ff;color:#fff;cursor:pointer}.snippet-listing a .snippet-listing-image{width:23.66625rem;border-top-left-radius:0.5rem;border-bottom-left-radius:0.5rem;border-top-right-radius:0;height:17.75rem;flex-shrink:0}.snippet-listing a .snippet-listing-image img{width:100%;height:100%;border-top-left-radius:8px;border-bottom-left-radius:8px;border-top-right-radius:0}.snippet-listing a .snippet-listing-image .snippet-listing-image-quantity{bottom:0.875rem;left:0.5rem}.snippet-listing a .snippet-listing-content{background-color:#fff;border-top-right-radius:8px;border-bottom-right-radius:8px;width:calc(100% - 378.66px);display:flex;flex-direction:column;justify-content:space-between;padding:0;height:auto}.snippet-listing a .snippet-listing-content .snippet-listing-content-header{padding:0.875rem;border-top-right-radius:0.5rem;height:initial}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title{display:flex;flex-direction:row;flex-wrap:nowrap;margin-bottom:0.5rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left{flex:3;flex-basis:90%;flex-shrink:1}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left h2{max-height:48px}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left span{font-size:16px;font-weight:700;overflow:hidden;-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-left address{font-style:normal;font-weight:400;font-size:0.875rem;line-height:1.0625rem;color:#333;white-space:normal;display:block;overflow:unset;text-overflow:ellipsis;overflow:hidden;-webkit-line-clamp:1;-webkit-box-orient:vertical}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-right{flex:1;display:flex;flex-flow:column nowrap;justify-content:space-between;text-align:right;flex-basis:10%;flex-grow:1}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-title .snippet-listing-content-header-title-right img{display:none}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-description address{display:none}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-description p{display:-webkit-box;color:#424242;font-size:12px;font-weight:500;word-wrap:break-word;word-break:break-word;overflow-wrap:break-word;text-overflow:ellipsis;overflow:hidden;-webkit-line-clamp:2;-webkit-box-orient:vertical}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons{margin:0}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul li p{font-weight:500}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul li p span{display:block;margin-left:3px}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-icons ul li p span.abbrev{display:none}.snippet-listing a .snippet-listing-content .snippet-listing-content-header .snippet-listing-content-header-amenities{padding:0.25rem 0;margin-bottom:0}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer{display:flex;margin:0;border-bottom-right-radius:0.5rem;border-top:0.0625rem solid #e3e3e3;height:3.75rem;padding:0.5rem 0.875rem 0.875rem 0.875rem;justify-content:space-between;align-items:center;gap:0.625rem}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div{display:flex;width:auto;height:fit-content}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div:first-child{flex-direction:column}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div:first-child span{font-weight:bold}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div:first-child small{margin-top:0;max-width:18.75rem;text-overflow:ellipsis;overflow:hidden;-webkit-line-clamp:1;-webkit-box-orient:vertical}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div:last-child{justify-content:flex-start;align-items:center}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div:last-child button{background-color:#fff;color:#0080ff;font-weight:bolder;border:2px solid #0080ff;text-align:center;font-size:1rem;line-height:1.25rem;height:2.5em;width:auto;padding:0.625rem;border-radius:6px;display:flex;justify-content:center;align-items:center}.snippet-listing a .snippet-listing-content .snippet-listing-content-footer div:last-child button:hover{background-color:#0080ff;color:#fff;cursor:pointer}}
 
 /*# sourceMappingURL=main-trovitListing.css.map*/ #didomi-notice{border:1px solid;border-radius:10px;box-shadow:0 2px 4px 2px rgba(0,0,0,.5);width:90%;margin:0 auto;bottom:20px !important;color:#717171 !important}#didomi-notice-disagree-button{background-color:#fff !important;color:#444 !important}@media only screen and (min-width: 1024px){#didomi-notice-disagree-button{background-color:#eee !important}}#didomi-notice-learn-more-button>span{white-space:nowrap !important}.didomi-continue-without-agreeing{width:100%;display:block;text-align:right;margin-bottom:8px}#didomi-host .didomi-popup-notice .didomi-popup-notice-buttons .didomi-button{flex:1;max-width:200px;min-width:180px !important;padding:2px 15px !important}#didomi-notice .didomi-notice__interior-border{border:0 none !important}#didomi-notice .didomi-notice__interior-border p{line-height:14px}#didomi-notice .didomi-notice-data-processing-container{text-align:unset !important}#didomi-notice #buttons{margin-top:10px;flex-direction:row !important;gap:10px}#didomi-host #didomi-notice.didomi-regular-notice #buttons{display:flex;flex-flow:row wrap;justify-content:center;align-items:center}.didomi-banner-notice-continue-without-agreeing-buttons{width:100%}#didomi-notice #buttons #didomi-notice-agree-button,#didomi-notice #didomi-notice-disagree-button,#didomi-notice #buttons #didomi-notice-learn-more-button{flex:1;height:32px;cursor:pointer;font-size:12px;line-height:14px;font-weight:700;width:auto !important;border:1px solid !important;margin-bottom:0 !important;border-radius:6px !important}#didomi-notice #didomi-notice-disagree-button{min-width:190px !important}#didomi-notice #buttons #didomi-notice-learn-more-button{background-color:#fff !important}body>footer{background-color:#f5f5f5;margin-top:auto}body>footer div.wrapper{margin:0 1.8em 28px;display:block}body>footer div.wrapper a{font-size:small;line-height:2em}body>footer div.wrapper a:hover{text-decoration:none;color:#666}body>footer div.wrapper hr{border-top:1px solid rgba(0,0,0,.2);margin:10px 0}body>footer div.wrapper section#icons{display:flex;margin-top:20px;flex-direction:column;gap:1%}body>footer div.wrapper section#icons section{flex-grow:1;display:flex;flex-direction:column}body>footer div.wrapper section#icons section.part-of img{width:188px;height:24px}body>footer div.wrapper section#icons section img{width:26px;height:26px}body>footer div.wrapper section#icons section header{font-weight:700;color:#747b8a;font-size:13px;line-height:1.5;margin-bottom:8px}body>footer div.wrapper section#icons section main a{font-size:16px}body>footer div.wrapper section#icons section main a:hover{opacity:.75}body>footer div.wrapper section#icons section main a:not(:first-child){margin-left:10px}body>footer div.wrapper section#links{display:flex;align-items:start;flex-direction:column}body>footer div.wrapper section#links a{color:#747b8a;font-size:12px;font-weight:400;line-height:32px}body>footer div.wrapper section#links a:hover{text-decoration:underline}body>footer div.wrapper section#links footer{display:flex;align-items:center;text-transform:uppercase;font-size:18px;color:#2087f8;line-height:42px;margin-top:0}body>footer div.wrapper section#links footer img{width:38px;height:38px;margin-right:.5em;box-shadow:0 0 5px rgba(0,0,0,.5);border-radius:50%}@media only screen and (min-width: 760px){body>footer div.wrapper{padding-top:26px;padding-bottom:14px;margin:0 auto}body>footer div.wrapper section#icons{margin-top:0;margin-bottom:2em;flex-direction:row}body>footer div.wrapper section#icons section{width:24.5%}body>footer div.wrapper section#icons section:not(:first-child){margin-top:0}body>footer div.wrapper section#icons section.part-of header{padding:3px}body>footer div.wrapper section#links{flex-direction:row}body>footer div.wrapper section#links header{flex-grow:1}body>footer div.wrapper section#links a{line-height:1.7}body>footer div.wrapper section#links footer{line-height:28px;color:#747b8a;font-size:12px}body>footer div.wrapper section#links footer img{width:24px;height:24px}body>footer div.wrapper hr{border-top:2px solid #ededed;margin:20px 0}}
 
@@ -797,7 +797,7 @@ button.swiper-pagination-bullet {
 
 <header class="top-header">
     <a href="/" class="main-header-logo-link">
-        <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/trovit-logo.svg" alt="Trovit"/>
+        <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/trovit-logo.svg" alt="Trovit"/>
     </a>
     <div id="types-selector" class="dropdown js-trovit-toggle-dropdown" data-test="types-selector">
     <div class="option-selected">
@@ -839,7 +839,7 @@ button.swiper-pagination-bullet {
            placeholder="" class="js-search-box-input"
            data-test="search-bar">
         <button type="submit" data-test="header-search-box-submit" aria-label="Search">
-            <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-search.svg"  width="24" height="24" alt="search"/>
+            <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-search.svg"  width="24" height="24" alt="search"/>
         </button>
         </div>
     </form>
@@ -852,7 +852,7 @@ button.swiper-pagination-bullet {
                 Vende tu casa
             </a>
         <a rel="nofollow" href="https://accounts.trovit.com/?cod=check_login&url=https%3A%2F%2Fcasas.trovit.com.co%2Findex.php%2Fcod.mail_preferences&language=es_CO&" class="login-button"
-           style="--header-login-icon: url(https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-login.svg)">Acceder</a>
+           style="--header-login-icon: url(https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-login.svg)">Acceder</a>
     </div>
 </header>
     <div id="gdpr-cookie-disclaimer" data-test="gdpr-cookie-disclaimer">
@@ -868,6 +868,7 @@ button.swiper-pagination-bullet {
     </div>
 
 <meta name="aLeadHasBeenSent" content="false">
+<meta name="aCallMeLeadHasBeenSent" content="false">
 <main class="content-page detail-page">
     <div class="detail-page__wrapper">
         
@@ -1124,10 +1125,10 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="multienquiry__contact-label">Contacta con propiedades similares de otros anunciantes</div>
         <form class="multienquiry__similars-form" data-multienquiry-form>
             <div>    <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=3a43e308-fd93-4f40-aa5a-cb9ed58b232e&page=1&t_sec=4000&pos=1&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=1&t_sec=4000&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
-                    <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZmY2NDk2Yi01ODdkLTRiMWEtOGUwMC03OGRiOGE2ZDRhODIvMzQ4OWVmMWM0ZWFkZDlkOWVjNTUyYmY0MmUyMGNjMWM3NzRlMDI2NDNjNTE4MDMxNjgzMTBkZjgyNzM3NTdjNi5qcGciLCJicmFuZCI6InRyb3ZpdCIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwicmVzaXplIjp7IndpZHRoIjozNjAsImhlaWdodCI6MjcwLCJmaXQiOiJjb3ZlciJ9fX0=" alt="similar_image">
+                    <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
                 </div>
                 <div class="similar-snippet__info">
                     <div class="similar-snippet__info__header">
@@ -1137,7 +1138,7 @@ Hemos enviado tu mensaje al anunciante.</span>
                     </div>
                     <div class="similar-snippet__info__location">Astorga, Comuna 14 - El Poblado, Zona Urbana Medellín, Medellín, Valle de Aburrá, Departamento de Antioquia</div>
                     <div class="similar-snippet__info__price">
-                        $ 590.000.000
+                        $ 540.000.000
                     </div>
                     <div class="similar-snippet__info__details">
                             <div class="details-item">
@@ -1158,7 +1159,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         </a>
     </div>
     <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=70927e84-a897-4635-9ea7-c095dd6942c5&page=1&t_sec=4000&pos=1&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=1&t_sec=4000&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -1236,8 +1237,8 @@ Hemos enviado tu mensaje al anunciante.</span>
                     <div id="map-wrapper" class="location-map__map-wrapper">
     <div id="map" class="map"></div>
     <picture id="map-static-image">
-        <source srcset="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/map-placeholder.744x150.png" type="image/webp"/>
-        <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/map-placeholder.744x150.png" alt="Map Image"/>
+        <source srcset="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/map-placeholder.744x150.png" type="image/webp"/>
+        <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/map-placeholder.744x150.png" alt="Map Image"/>
     </picture>
     <span class="location-map__view-button" id="view-map-button" data-test=show-map>Ver en mapa</span>
 </div>
@@ -1245,7 +1246,7 @@ Hemos enviado tu mensaje al anunciante.</span>
             </section>
                 <style>
     body {
-        --wl-number-photos-image: url(https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-imgs.svg)
+        --wl-number-photos-image: url(https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-imgs.svg)
     }
 </style>
 <div class="similar-listings">
@@ -1259,9 +1260,9 @@ Hemos enviado tu mensaje al anunciante.</span>
         data-section="190"
         
 >
-    <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=&page=0&t_sec=190&pos=1&search_terms=&type=direct" target="_self" rel="nofollow" title="apartamento en venta en el poblado, loma el encierro. Cod V12468" class="js-listing">
+    <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=0&t_sec=190&pos=1&search_terms=&type=direct" target="_self" rel="nofollow" title="apartamento en venta en el poblado, loma el encierro. Cod V12468" class="js-listing">
         <div class="snippet-listing-image">
-    <img loading="lazy" src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZmY2NDk2Yi01ODdkLTRiMWEtOGUwMC03OGRiOGE2ZDRhODIvMzQ4OWVmMWM0ZWFkZDlkOWVjNTUyYmY0MmUyMGNjMWM3NzRlMDI2NDNjNTE4MDMxNjgzMTBkZjgyNzM3NTdjNi5qcGciLCJicmFuZCI6InRyb3ZpdCIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwicmVzaXplIjp7IndpZHRoIjozNjAsImhlaWdodCI6MjcwLCJmaXQiOiJjb3ZlciJ9fX0=" alt="apartamento en venta en el poblado, loma el encierro. Cod V12468" onerror="onErrorImage.apply(this)">
+    <img loading="lazy" src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="apartamento en venta en el poblado, loma el encierro. Cod V12468" onerror="onErrorImage.apply(this)">
 
 </div>
 
@@ -1275,10 +1276,10 @@ Hemos enviado tu mensaje al anunciante.</span>
                     </div>
                     <div class="snippet-listing-content-header-title-right">
                             <div class="price">
-    <span class="price__actual" data-test="price__actual">$ 590.000.000</span>
+    <span class="price__actual" data-test="price__actual">$ 540.000.000</span>
 </div>
 
-                        <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-info.svg"
+                        <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-info.svg"
                              class="js-show-extended-description" alt="info"/>
                     </div>
                 </div>
@@ -1318,7 +1319,7 @@ Hemos enviado tu mensaje al anunciante.</span>
             </div>
             <div class="snippet-listing-content-footer">
                 <div>
-                    <span class="updated-date">Hace 30+ días</span>
+                    <span class="updated-date">Hace 4 días</span>
                     <div class="snippet-listing-content-footer-agency">
                         <small>MURILLO PROPIEDADES</small>
                     </div>
@@ -1334,11 +1335,11 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="extended-description-content">
             <p>PV-25028-ap VENTA DE APARTAMENTO EN EL POBLADO, LOMA DEL ENCIERRO. Apartamento piso 3 con área de 84 m2, cuenta con 3 alcobas, 2 baños,  sal&hellip;</p>
             <button>
-                <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-back-arrow.svg"
+                <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-back-arrow.svg"
                      class="js-show-extended-description">
             </button>
         </div>
-        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=&page=0&t_sec=190&pos=1&search_terms=&type=direct" target="_blank" rel="nofollow" title="apartamento en venta en el poblado, loma el encierro. Cod V12468"
+        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=0&t_sec=190&pos=1&search_terms=&type=direct" target="_blank" rel="nofollow" title="apartamento en venta en el poblado, loma el encierro. Cod V12468"
            class="extended-description-go-to-details">Ver el anuncio completo</a>
     </div>
 </article>
@@ -1350,7 +1351,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         data-section="190"
         
 >
-    <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=&page=0&t_sec=190&pos=2&search_terms=&type=direct" target="_self" rel="nofollow" title="PR18622 Apartamento en venta en el sector Vizcaya" class="js-listing">
+    <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=0&t_sec=190&pos=2&search_terms=&type=direct" target="_self" rel="nofollow" title="PR18622 Apartamento en venta en el sector Vizcaya" class="js-listing">
         <div class="snippet-listing-image">
     <img loading="lazy" src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="PR18622 Apartamento en venta en el sector Vizcaya" onerror="onErrorImage.apply(this)">
 
@@ -1369,7 +1370,7 @@ Hemos enviado tu mensaje al anunciante.</span>
     <span class="price__actual" data-test="price__actual">$ 680.000.000</span>
 </div>
 
-                        <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-info.svg"
+                        <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-info.svg"
                              class="js-show-extended-description" alt="info"/>
                     </div>
                 </div>
@@ -1433,11 +1434,11 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="extended-description-content">
             <p>PR18622 Apartamento en venta unidad cerrada cerca a centros comerciales, gran variedad de servicios complementarios, rutas de transporte pub&hellip;</p>
             <button>
-                <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-back-arrow.svg"
+                <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-back-arrow.svg"
                      class="js-show-extended-description">
             </button>
         </div>
-        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=&page=0&t_sec=190&pos=2&search_terms=&type=direct" target="_blank" rel="nofollow" title="PR18622 Apartamento en venta en el sector Vizcaya"
+        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=0&t_sec=190&pos=2&search_terms=&type=direct" target="_blank" rel="nofollow" title="PR18622 Apartamento en venta en el sector Vizcaya"
            class="extended-description-go-to-details">Ver el anuncio completo</a>
     </div>
 </article>
@@ -1449,11 +1450,11 @@ Hemos enviado tu mensaje al anunciante.</span>
         data-section="190"
         
 >
-    <a href="https://casas.trovit.com.co/dp/ffdaf79f-2c9e-3f7d-8206-52a845ae90e7?t_pvid=&page=0&t_sec=190&pos=3&search_terms=&type=direct" target="_self" rel="nofollow" title="APARTAMENTO VENTA LOMA DE LOS BERNAL" class="js-listing">
+    <a href="https://casas.trovit.com.co/dp/ffdaf79f-2c9e-3f7d-8206-52a845ae90e7?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=0&t_sec=190&pos=3&search_terms=&type=direct" target="_self" rel="nofollow" title="APARTAMENTO VENTA LOMA DE LOS BERNAL" class="js-listing">
         <div class="snippet-listing-image">
     <img loading="lazy" src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZmRhZjc5Zi0yYzllLTNmN2QtODIwNi01MmE4NDVhZTkwZTcvYTI4YWFkZTE4YjI1MDE0ZjM4ZGVkMmMyMjQ1MWViZmZkZDEyY2ZmNTY2NzQ4NGZmZmU0OTFiYjNjZDVhNzIyNS5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="APARTAMENTO VENTA LOMA DE LOS BERNAL" onerror="onErrorImage.apply(this)">
 
-    <div class="snippet-listing-image-right-label" style="--snippet-listing-image-right-label: url(https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/serp/ic-high-demand.svg)">
+    <div class="snippet-listing-image-right-label" style="--snippet-listing-image-right-label: url(https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/serp/ic-high-demand.svg)">
         Alta Demanda
     </div>
 </div>
@@ -1471,7 +1472,7 @@ Hemos enviado tu mensaje al anunciante.</span>
     <span class="price__actual" data-test="price__actual">$ 350.000.000</span>
 </div>
 
-                        <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-info.svg"
+                        <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-info.svg"
                              class="js-show-extended-description" alt="info"/>
                     </div>
                 </div>
@@ -1544,11 +1545,11 @@ Te Ofrezco ...
 
 Apartamento para la venta en el barrio belen sector loma de los bernal este es un sector &hellip;</p>
             <button>
-                <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-back-arrow.svg"
+                <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-back-arrow.svg"
                      class="js-show-extended-description">
             </button>
         </div>
-        <a href="https://casas.trovit.com.co/dp/ffdaf79f-2c9e-3f7d-8206-52a845ae90e7?t_pvid=&page=0&t_sec=190&pos=3&search_terms=&type=direct" target="_blank" rel="nofollow" title="APARTAMENTO VENTA LOMA DE LOS BERNAL"
+        <a href="https://casas.trovit.com.co/dp/ffdaf79f-2c9e-3f7d-8206-52a845ae90e7?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=0&t_sec=190&pos=3&search_terms=&type=direct" target="_blank" rel="nofollow" title="APARTAMENTO VENTA LOMA DE LOS BERNAL"
            class="extended-description-go-to-details">Ver el anuncio completo</a>
     </div>
 </article>
@@ -1560,7 +1561,7 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
         data-section="190"
         
 >
-    <a href="https://casas.trovit.com.co/dp/ffd4fbb9-bc23-423c-be2d-772d74eb03e1?t_pvid=&page=0&t_sec=190&pos=4&search_terms=&type=direct" target="_self" rel="nofollow" title="PR17367 Apartamento en venta en el sector Loma del Indio" class="js-listing">
+    <a href="https://casas.trovit.com.co/dp/ffd4fbb9-bc23-423c-be2d-772d74eb03e1?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=0&t_sec=190&pos=4&search_terms=&type=direct" target="_self" rel="nofollow" title="PR17367 Apartamento en venta en el sector Loma del Indio" class="js-listing">
         <div class="snippet-listing-image">
     <img loading="lazy" src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZDRmYmI5LWJjMjMtNDIzYy1iZTJkLTc3MmQ3NGViMDNlMS9mOTU1OGZmOC1iNTNkLTRlNmItYTNiOS00Mzk1NjdlYzJjODYuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="PR17367 Apartamento en venta en el sector Loma del Indio" onerror="onErrorImage.apply(this)">
 
@@ -1579,7 +1580,7 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
     <span class="price__actual" data-test="price__actual">$ 550.000.000</span>
 </div>
 
-                        <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-info.svg"
+                        <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-info.svg"
                              class="js-show-extended-description" alt="info"/>
                     </div>
                 </div>
@@ -1645,11 +1646,11 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
         <div class="extended-description-content">
             <p>PR17367 Apartamento en venta en unidad cerrada con facil acceso desde la principal. Zona residencial con excelentes rutas de transporte publ&hellip;</p>
             <button>
-                <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-back-arrow.svg"
+                <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-back-arrow.svg"
                      class="js-show-extended-description">
             </button>
         </div>
-        <a href="https://casas.trovit.com.co/dp/ffd4fbb9-bc23-423c-be2d-772d74eb03e1?t_pvid=&page=0&t_sec=190&pos=4&search_terms=&type=direct" target="_blank" rel="nofollow" title="PR17367 Apartamento en venta en el sector Loma del Indio"
+        <a href="https://casas.trovit.com.co/dp/ffd4fbb9-bc23-423c-be2d-772d74eb03e1?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=0&t_sec=190&pos=4&search_terms=&type=direct" target="_blank" rel="nofollow" title="PR17367 Apartamento en venta en el sector Loma del Indio"
            class="extended-description-go-to-details">Ver el anuncio completo</a>
     </div>
 </article>
@@ -1661,7 +1662,7 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
         data-section="190"
         
 >
-    <a href="https://casas.trovit.com.co/dp/ffc44831-9847-390d-8578-1f3770092abb?t_pvid=&page=0&t_sec=190&pos=5&search_terms=&type=direct" target="_self" rel="nofollow" title="Apartamento Amoblado Luxury con licencia hotelera" class="js-listing">
+    <a href="https://casas.trovit.com.co/dp/ffc44831-9847-390d-8578-1f3770092abb?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=0&t_sec=190&pos=5&search_terms=&type=direct" target="_self" rel="nofollow" title="Apartamento Amoblado Luxury con licencia hotelera" class="js-listing">
         <div class="snippet-listing-image">
     <img loading="lazy" src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZmM0NDgzMS05ODQ3LTM5MGQtODU3OC0xZjM3NzAwOTJhYmIvNGFjOWVkM2ZiZDczZmQ2OTMxYzM0Y2E3NzhhZDFiNjlmN2MzZjg4MDdjODllMzA4Yjk1OTRjM2QzMWVhYTdhYi5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="Apartamento Amoblado Luxury con licencia hotelera" onerror="onErrorImage.apply(this)">
 
@@ -1680,7 +1681,7 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
     <span class="price__actual" data-test="price__actual">$ 2.000.000.000</span>
 </div>
 
-                        <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-info.svg"
+                        <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-info.svg"
                              class="js-show-extended-description" alt="info"/>
                     </div>
                 </div>
@@ -1740,11 +1741,11 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
         <div class="extended-description-content">
             <p>Espectacular apartamento AMOBLADO para entrega inmediata. Con licencia hotelera y rentabilidad aproximada anual del 12% por plataformas digi&hellip;</p>
             <button>
-                <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-back-arrow.svg"
+                <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-back-arrow.svg"
                      class="js-show-extended-description">
             </button>
         </div>
-        <a href="https://casas.trovit.com.co/dp/ffc44831-9847-390d-8578-1f3770092abb?t_pvid=&page=0&t_sec=190&pos=5&search_terms=&type=direct" target="_blank" rel="nofollow" title="Apartamento Amoblado Luxury con licencia hotelera"
+        <a href="https://casas.trovit.com.co/dp/ffc44831-9847-390d-8578-1f3770092abb?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=0&t_sec=190&pos=5&search_terms=&type=direct" target="_blank" rel="nofollow" title="Apartamento Amoblado Luxury con licencia hotelera"
            class="extended-description-go-to-details">Ver el anuncio completo</a>
     </div>
 </article>
@@ -1756,7 +1757,7 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
         data-section="190"
         
 >
-    <a href="https://casas.trovit.com.co/dp/ffa71f33-0879-3632-a964-63bee41c25a1?t_pvid=&page=0&t_sec=190&pos=6&search_terms=&type=direct" target="_self" rel="nofollow" title="PR13474 Casa en venta sector Altos del Poblado" class="js-listing">
+    <a href="https://casas.trovit.com.co/dp/ffa71f33-0879-3632-a964-63bee41c25a1?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=0&t_sec=190&pos=6&search_terms=&type=direct" target="_self" rel="nofollow" title="PR13474 Casa en venta sector Altos del Poblado" class="js-listing">
         <div class="snippet-listing-image">
     <img loading="lazy" src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZmE3MWYzMy0wODc5LTM2MzItYTk2NC02M2JlZTQxYzI1YTEvYjExYmRiNDFiMTJkMmIyYWNmNGQ1ZGYzMGI0NDkxZGI1MGMzYzNlOWI4ZGUwNjk0MjY5ZGIxOWFjNDY5NTE3OC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="PR13474 Casa en venta sector Altos del Poblado" onerror="onErrorImage.apply(this)">
 
@@ -1775,7 +1776,7 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
     <span class="price__actual" data-test="price__actual">$ 1.360.000.000</span>
 </div>
 
-                        <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-info.svg"
+                        <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-info.svg"
                              class="js-show-extended-description" alt="info"/>
                     </div>
                 </div>
@@ -1836,11 +1837,11 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
         <div class="extended-description-content">
             <p>PR13474 Casa en venta en unidad cerrada en el sector altos del poblado a pocas cuadras del ces, con fácil acceso desde la superior. Entorno &hellip;</p>
             <button>
-                <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-back-arrow.svg"
+                <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-back-arrow.svg"
                      class="js-show-extended-description">
             </button>
         </div>
-        <a href="https://casas.trovit.com.co/dp/ffa71f33-0879-3632-a964-63bee41c25a1?t_pvid=&page=0&t_sec=190&pos=6&search_terms=&type=direct" target="_blank" rel="nofollow" title="PR13474 Casa en venta sector Altos del Poblado"
+        <a href="https://casas.trovit.com.co/dp/ffa71f33-0879-3632-a964-63bee41c25a1?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=0&t_sec=190&pos=6&search_terms=&type=direct" target="_blank" rel="nofollow" title="PR13474 Casa en venta sector Altos del Poblado"
            class="extended-description-go-to-details">Ver el anuncio completo</a>
     </div>
 </article>
@@ -1945,10 +1946,10 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="multienquiry__contact-label">Contacta con propiedades similares de otros anunciantes</div>
         <form class="multienquiry__similars-form" data-multienquiry-form>
             <div>    <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=83fc0e98-faf7-4a91-a9a9-962636eaf8ee&page=1&t_sec=4000&pos=1&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=1&t_sec=4000&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
-                    <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZmY2NDk2Yi01ODdkLTRiMWEtOGUwMC03OGRiOGE2ZDRhODIvMzQ4OWVmMWM0ZWFkZDlkOWVjNTUyYmY0MmUyMGNjMWM3NzRlMDI2NDNjNTE4MDMxNjgzMTBkZjgyNzM3NTdjNi5qcGciLCJicmFuZCI6InRyb3ZpdCIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwicmVzaXplIjp7IndpZHRoIjozNjAsImhlaWdodCI6MjcwLCJmaXQiOiJjb3ZlciJ9fX0=" alt="similar_image">
+                    <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
                 </div>
                 <div class="similar-snippet__info">
                     <div class="similar-snippet__info__header">
@@ -1958,7 +1959,7 @@ Hemos enviado tu mensaje al anunciante.</span>
                     </div>
                     <div class="similar-snippet__info__location">Astorga, Comuna 14 - El Poblado, Zona Urbana Medellín, Medellín, Valle de Aburrá, Departamento de Antioquia</div>
                     <div class="similar-snippet__info__price">
-                        $ 590.000.000
+                        $ 540.000.000
                     </div>
                     <div class="similar-snippet__info__details">
                             <div class="details-item">
@@ -1979,7 +1980,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         </a>
     </div>
     <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=9d2f3f60-a569-4c80-bd72-8c8a1ec50d7c&page=1&t_sec=4000&pos=1&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=1&t_sec=4000&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -2130,10 +2131,10 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="multienquiry__contact-label">Contacta con propiedades similares de otros anunciantes</div>
         <form class="multienquiry__similars-form" data-multienquiry-form>
             <div>    <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=6c2b6c82-7fab-46b1-b443-42d3099a7a28&page=1&t_sec=4004&pos=1&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=1&t_sec=4004&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
-                    <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZmY2NDk2Yi01ODdkLTRiMWEtOGUwMC03OGRiOGE2ZDRhODIvMzQ4OWVmMWM0ZWFkZDlkOWVjNTUyYmY0MmUyMGNjMWM3NzRlMDI2NDNjNTE4MDMxNjgzMTBkZjgyNzM3NTdjNi5qcGciLCJicmFuZCI6InRyb3ZpdCIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwicmVzaXplIjp7IndpZHRoIjozNjAsImhlaWdodCI6MjcwLCJmaXQiOiJjb3ZlciJ9fX0=" alt="similar_image">
+                    <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
                 </div>
                 <div class="similar-snippet__info">
                     <div class="similar-snippet__info__header">
@@ -2143,7 +2144,7 @@ Hemos enviado tu mensaje al anunciante.</span>
                     </div>
                     <div class="similar-snippet__info__location">Astorga, Comuna 14 - El Poblado, Zona Urbana Medellín, Medellín, Valle de Aburrá, Departamento de Antioquia</div>
                     <div class="similar-snippet__info__price">
-                        $ 590.000.000
+                        $ 540.000.000
                     </div>
                     <div class="similar-snippet__info__details">
                             <div class="details-item">
@@ -2164,7 +2165,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         </a>
     </div>
     <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=408428f3-2699-454f-8534-fd88f19879ae&page=1&t_sec=4004&pos=1&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=1&t_sec=4004&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -2262,8 +2263,8 @@ Hemos enviado tu mensaje al anunciante.</span>
     </div>
 </main>
 <div class="sticky-buttons-container" data-test="sticky-buttons">
-        <button id="open-phone-modal-group-modal" class="trovit-button">Llamar</button>
-    <button class="trovit-button js-open-sticky-modal">Mensaje</button>
+    <button id="open-phone-modal-group-modal" class="trovit-button" data-test="">Llamar</button>
+    <button id="" class="trovit-button js-open-sticky-modal" data-test="">Mensaje</button>
 </div>
 
 <!-- Modals -->
@@ -2277,7 +2278,7 @@ Hemos enviado tu mensaje al anunciante.</span>
                data-element="tab">Fotos</label>
     </div>
                 <div class="modal-photos__header__close" id="close-modal-photos">
-                    <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-cross.svg" width="24" height="24" alt="close"/>
+                    <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-cross.svg" width="24" height="24" alt="close"/>
                 </div>
             </div>
         <div class="modal-photos__gallery"></div>
@@ -2377,10 +2378,10 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="multienquiry__contact-label">Contacta con propiedades similares de otros anunciantes</div>
         <form class="multienquiry__similars-form" data-multienquiry-form>
             <div>    <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=62a40359-b5ea-493d-a4cd-f425dd0f284f&page=1&t_sec=4090&pos=1&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=1&t_sec=4090&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
-                    <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZmY2NDk2Yi01ODdkLTRiMWEtOGUwMC03OGRiOGE2ZDRhODIvMzQ4OWVmMWM0ZWFkZDlkOWVjNTUyYmY0MmUyMGNjMWM3NzRlMDI2NDNjNTE4MDMxNjgzMTBkZjgyNzM3NTdjNi5qcGciLCJicmFuZCI6InRyb3ZpdCIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwicmVzaXplIjp7IndpZHRoIjozNjAsImhlaWdodCI6MjcwLCJmaXQiOiJjb3ZlciJ9fX0=" alt="similar_image">
+                    <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
                 </div>
                 <div class="similar-snippet__info">
                     <div class="similar-snippet__info__header">
@@ -2390,7 +2391,7 @@ Hemos enviado tu mensaje al anunciante.</span>
                     </div>
                     <div class="similar-snippet__info__location">Astorga, Comuna 14 - El Poblado, Zona Urbana Medellín, Medellín, Valle de Aburrá, Departamento de Antioquia</div>
                     <div class="similar-snippet__info__price">
-                        $ 590.000.000
+                        $ 540.000.000
                     </div>
                     <div class="similar-snippet__info__details">
                             <div class="details-item">
@@ -2411,7 +2412,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         </a>
     </div>
     <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=09cd0df0-8753-4c91-8a9c-1c11565af277&page=1&t_sec=4090&pos=1&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=1&t_sec=4090&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -2562,10 +2563,10 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="multienquiry__contact-label">Contacta con propiedades similares de otros anunciantes</div>
         <form class="multienquiry__similars-form" data-multienquiry-form>
             <div>    <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=978a53c5-274a-409c-ba43-8c3f0a3faea0&page=1&t_sec=4004&pos=1&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=1&t_sec=4004&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
-                    <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZmY2NDk2Yi01ODdkLTRiMWEtOGUwMC03OGRiOGE2ZDRhODIvMzQ4OWVmMWM0ZWFkZDlkOWVjNTUyYmY0MmUyMGNjMWM3NzRlMDI2NDNjNTE4MDMxNjgzMTBkZjgyNzM3NTdjNi5qcGciLCJicmFuZCI6InRyb3ZpdCIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwicmVzaXplIjp7IndpZHRoIjozNjAsImhlaWdodCI6MjcwLCJmaXQiOiJjb3ZlciJ9fX0=" alt="similar_image">
+                    <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
                 </div>
                 <div class="similar-snippet__info">
                     <div class="similar-snippet__info__header">
@@ -2575,7 +2576,7 @@ Hemos enviado tu mensaje al anunciante.</span>
                     </div>
                     <div class="similar-snippet__info__location">Astorga, Comuna 14 - El Poblado, Zona Urbana Medellín, Medellín, Valle de Aburrá, Departamento de Antioquia</div>
                     <div class="similar-snippet__info__price">
-                        $ 590.000.000
+                        $ 540.000.000
                     </div>
                     <div class="similar-snippet__info__details">
                             <div class="details-item">
@@ -2596,7 +2597,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         </a>
     </div>
     <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=1517ffba-8709-4e04-ab39-c5de6538f298&page=1&t_sec=4004&pos=1&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=1&t_sec=4004&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -2875,10 +2876,10 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="multienquiry__contact-label">Contacta con propiedades similares de otros anunciantes</div>
         <form class="multienquiry__similars-form" data-multienquiry-form>
             <div>    <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=2d08894c-b542-497f-bf64-a7243a0fd88e&page=1&t_sec=4090&pos=1&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co/dp/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=1&t_sec=4090&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
-                    <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZmY2NDk2Yi01ODdkLTRiMWEtOGUwMC03OGRiOGE2ZDRhODIvMzQ4OWVmMWM0ZWFkZDlkOWVjNTUyYmY0MmUyMGNjMWM3NzRlMDI2NDNjNTE4MDMxNjgzMTBkZjgyNzM3NTdjNi5qcGciLCJicmFuZCI6InRyb3ZpdCIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwicmVzaXplIjp7IndpZHRoIjozNjAsImhlaWdodCI6MjcwLCJmaXQiOiJjb3ZlciJ9fX0=" alt="similar_image">
+                    <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
                 </div>
                 <div class="similar-snippet__info">
                     <div class="similar-snippet__info__header">
@@ -2888,7 +2889,7 @@ Hemos enviado tu mensaje al anunciante.</span>
                     </div>
                     <div class="similar-snippet__info__location">Astorga, Comuna 14 - El Poblado, Zona Urbana Medellín, Medellín, Valle de Aburrá, Departamento de Antioquia</div>
                     <div class="similar-snippet__info__price">
-                        $ 590.000.000
+                        $ 540.000.000
                     </div>
                     <div class="similar-snippet__info__details">
                             <div class="details-item">
@@ -2909,7 +2910,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         </a>
     </div>
     <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=0e5a2ad9-847f-498b-93d4-fd3609be79dc&page=1&t_sec=4090&pos=1&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co/dp/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=82d4240b-7b78-41fa-b785-58b5f07e0dcb&page=1&t_sec=4090&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -3014,8 +3015,7 @@ Hemos enviado tu mensaje al anunciante.</span>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="js-wl-fullpage-modal wl-fullpage-modal phone-tracking-modal " id="phone-tracking-modal" data-test="close-contact-modal">
+            </div>            <div class="js-wl-fullpage-modal wl-fullpage-modal phone-tracking-modal " id="phone-tracking-modal" data-test="close-contact-modal">
                 <div class="background" data-test="background-modal">
                     <div class="modal">
                         <div class="header">
@@ -3069,8 +3069,7 @@ Hemos enviado tu mensaje al anunciante.</span>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="js-wl-fullpage-modal wl-fullpage-modal agency-phone-modal " id="agency-phone-modal" data-test="close-contact-modal">
+            </div>            <div class="js-wl-fullpage-modal wl-fullpage-modal agency-phone-modal " id="agency-phone-modal" data-test="close-contact-modal">
                 <div class="background" data-test="background-modal">
                     <div class="modal">
                         <div class="header">
@@ -3118,8 +3117,8 @@ Hemos enviado tu mensaje al anunciante.</span>
             id: "0194c892-64b0-7797-996b-88bff0e32618",
             proppitId: "0194c892-64b0-7797-996b-88bff0e32618",
             operationType: "RENT",
-            userId: "1791523611086458291d15747e9aa801b661e1a084b",
-            pageViewId: "7972416c-9346-4509-b956-327c7d9d6c50",
+            userId: "18112819911791a992e5df4741b5b0c0787591d76a73",
+            pageViewId: "82d4240b-7b78-41fa-b785-58b5f07e0dcb",
             brand: "TROVIT",
             country: "CO",
             device: "DESKTOP",
@@ -3131,7 +3130,7 @@ Hemos enviado tu mensaje al anunciante.</span>
                 branId: "1",
                 adUrl: "https://casas.trovit.com.co/detail/0194c892-64b0-7797-996b-88bff0e32618",
                 userAgent: "python-requests/2.32.3",
-                ipAddress: "179.15.236.110",
+                ipAddress: "181.128.199.117",
                 origin: "2"
             },
             mapData: {
@@ -3171,7 +3170,7 @@ Hemos enviado tu mensaje al anunciante.</span>
                 <header>Part of:</header>
 
                 <main>
-                    <a href="https://www.lifullconnect.com/" target="_blank" title="Lifull Connect"><img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/logo-lifullconnect.svg" alt="Lifull Connect"/></a>
+                    <a href="https://www.lifullconnect.com/" target="_blank" title="Lifull Connect"><img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/logo-lifullconnect.svg" alt="Lifull Connect"/></a>
                 </main>
             </section>
 
@@ -3180,13 +3179,13 @@ Hemos enviado tu mensaje al anunciante.</span>
 
                 <main>
                         <a href="https://casas.trovit.com.co/" class="icon-homes" title="Casas">
-    <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-homes.svg" alt="Casas" />
+    <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-homes.svg" alt="Casas" />
 </a>
                         <a href="https://carros.trovit.com.co/" class="icon-cars" title="Carros">
-    <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-cars.svg" alt="Carros" />
+    <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-cars.svg" alt="Carros" />
 </a>
                         <a href="https://empleo.trovit.com.co/" class="icon-jobs" title="empleos">
-    <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-jobs.svg" alt="empleos" />
+    <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-jobs.svg" alt="empleos" />
 </a>
                 </main>
             </section>
@@ -3194,16 +3193,16 @@ Hemos enviado tu mensaje al anunciante.</span>
             <section class="social-media">
                 <header>Síguenos</header>
                 <main>
-                    <a href="https://www.facebook.com/trovit.search/" title="Facebook" rel="nofollow" target="_blank"><img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-facebook.svg" alt="Facebook"/></a>
-                    <a href="https://twitter.com/Trovit" title="Twitter" rel="nofollow" target="_blank"><img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-twitter.svg" alt="Twitter"/></a>
+                    <a href="https://www.facebook.com/trovit.search/" title="Facebook" rel="nofollow" target="_blank"><img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-facebook.svg" alt="Facebook"/></a>
+                    <a href="https://twitter.com/Trovit" title="Twitter" rel="nofollow" target="_blank"><img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-twitter.svg" alt="Twitter"/></a>
                 </main>
             </section>
                 <section class="apps">
                     <header>Descarga la aplicación</header>
 
                     <main>
-                            <a href="https://play.google.com/store/apps/details?id=es.roid.and.trovit&hl=es_CO" rel="nofollow" target="_blank"><img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-android.svg" alt="Android"/></a>
-                            <a href="https://apps.apple.com/co/app/trovit-homes/id347012986" rel="nofollow" target="_blank"><img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/ic-apple.svg" alt="Apple"/></a>
+                            <a href="https://play.google.com/store/apps/details?id=es.roid.and.trovit&hl=es_CO" rel="nofollow" target="_blank"><img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-android.svg" alt="Android"/></a>
+                            <a href="https://apps.apple.com/co/app/trovit-homes/id347012986" rel="nofollow" target="_blank"><img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/ic-apple.svg" alt="Apple"/></a>
                     </main>
                 </section>
         </section>
@@ -3226,7 +3225,7 @@ Hemos enviado tu mensaje al anunciante.</span>
             </header>
 
             <footer>
-                <img src="https://statics.trovit.com/front/58abf806/adform/assets/images/trovit/flags/co.png" alt=""> Colombia
+                <img src="https://statics.trovit.com/front/d722239f/adform/assets/images/trovit/flags/co.png" alt=""> Colombia
             </footer>
         </section>
     </div>
@@ -3242,20 +3241,20 @@ Hemos enviado tu mensaje al anunciante.</span>
     })(window, '_googCsa');
 </script>
 
-    <script src="https://statics.trovit.com/front/58abf806/adform/bundle-wl_fullPageModal.js"></script>
-    <script src="https://statics.trovit.com/front/58abf806/adform/bundle-sentry.js"></script>
-    <script src="https://statics.trovit.com/front/58abf806/adform/bundle-trovitHeaderJS.js"></script>
-    <script src="https://statics.trovit.com/front/58abf806/adform/bundle-trovitDetailPage.js"></script>
-    <script src="https://statics.trovit.com/front/58abf806/adform/bundle-trovitLeadContactJs.js"></script>
-    <script src="https://statics.trovit.com/front/58abf806/adform/bundle-trovitDropdownSelect.js"></script>
-    <script src="https://statics.trovit.com/front/58abf806/adform/bundle-trovitGdprCookieDisclaimer.js"></script>
-    <script src="https://statics.trovit.com/front/58abf806/adform/bundle-trovitAsideDetailComponentJs.js"></script>
+    <script src="https://statics.trovit.com/front/d722239f/adform/bundle-wl_fullPageModal.js"></script>
+    <script src="https://statics.trovit.com/front/d722239f/adform/bundle-sentry.js"></script>
+    <script src="https://statics.trovit.com/front/d722239f/adform/bundle-trovitHeaderJS.js"></script>
+    <script src="https://statics.trovit.com/front/d722239f/adform/bundle-trovitDetailPage.js"></script>
+    <script src="https://statics.trovit.com/front/d722239f/adform/bundle-trovitLeadContactJs.js"></script>
+    <script src="https://statics.trovit.com/front/d722239f/adform/bundle-trovitDropdownSelect.js"></script>
+    <script src="https://statics.trovit.com/front/d722239f/adform/bundle-trovitGdprCookieDisclaimer.js"></script>
+    <script src="https://statics.trovit.com/front/d722239f/adform/bundle-trovitAsideDetailComponentJs.js"></script>
 <script>
     document.addEventListener('DOMContentLoaded', () => {
         if (window.eventBusInstance) {
             window.eventBusInstance.emit({
                 type: 'wl-page-loaded',
-                payload: {"pageViewId":"7972416c-9346-4509-b956-327c7d9d6c50","operationType":"SALE","typeId":1,"what":"","device":"DESKTOP","isSem":false,"currentOrigin":2}
+                payload: {"pageViewId":"82d4240b-7b78-41fa-b785-58b5f07e0dcb","operationType":"SALE","typeId":1,"what":"","device":"DESKTOP","isSem":false,"currentOrigin":2}
             });
         }
     });
