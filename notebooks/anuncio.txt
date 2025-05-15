@@ -1131,7 +1131,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="multienquiry__contact-label">Contacta con propiedades similares de otros anunciantes</div>
         <form class="multienquiry__similars-form" data-multienquiry-form>
             <div>    <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=1&t_sec=4000&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=1&t_sec=4000&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -1165,7 +1165,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         </a>
     </div>
     <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=1&t_sec=4000&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=1&t_sec=4000&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -1267,7 +1267,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         data-section="190"
         
 >
-    <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=0&t_sec=190&pos=1&search_terms=&type=direct" target="_self" rel="nofollow" title="apartamento en venta en el poblado, loma el encierro. Cod V12468" class="js-listing">
+    <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=0&t_sec=190&pos=1&search_terms=&type=direct" target="_self" rel="nofollow" title="apartamento en venta en el poblado, loma el encierro. Cod V12468" class="js-listing">
         <div class="snippet-listing-image">
     <img loading="lazy" src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="apartamento en venta en el poblado, loma el encierro. Cod V12468" onerror="onErrorImage.apply(this)">
 
@@ -1346,7 +1346,7 @@ Hemos enviado tu mensaje al anunciante.</span>
                      class="js-show-extended-description">
             </button>
         </div>
-        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=0&t_sec=190&pos=1&search_terms=&type=direct" target="_blank" rel="nofollow" title="apartamento en venta en el poblado, loma el encierro. Cod V12468"
+        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=0&t_sec=190&pos=1&search_terms=&type=direct" target="_blank" rel="nofollow" title="apartamento en venta en el poblado, loma el encierro. Cod V12468"
            class="extended-description-go-to-details">Ver el anuncio completo</a>
     </div>
 </article>
@@ -1358,7 +1358,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         data-section="190"
         
 >
-    <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=0&t_sec=190&pos=2&search_terms=&type=direct" target="_self" rel="nofollow" title="PR18622 Apartamento en venta en el sector Vizcaya" class="js-listing">
+    <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=0&t_sec=190&pos=2&search_terms=&type=direct" target="_self" rel="nofollow" title="PR18622 Apartamento en venta en el sector Vizcaya" class="js-listing">
         <div class="snippet-listing-image">
     <img loading="lazy" src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="PR18622 Apartamento en venta en el sector Vizcaya" onerror="onErrorImage.apply(this)">
 
@@ -1448,7 +1448,7 @@ Hemos enviado tu mensaje al anunciante.</span>
                      class="js-show-extended-description">
             </button>
         </div>
-        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=0&t_sec=190&pos=2&search_terms=&type=direct" target="_blank" rel="nofollow" title="PR18622 Apartamento en venta en el sector Vizcaya"
+        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=0&t_sec=190&pos=2&search_terms=&type=direct" target="_blank" rel="nofollow" title="PR18622 Apartamento en venta en el sector Vizcaya"
            class="extended-description-go-to-details">Ver el anuncio completo</a>
     </div>
 </article>
@@ -1460,7 +1460,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         data-section="190"
         
 >
-    <a href="https://casas.trovit.com.co:443/detail/ffdaf79f-2c9e-3f7d-8206-52a845ae90e7?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=0&t_sec=190&pos=3&search_terms=&type=direct" target="_self" rel="nofollow" title="APARTAMENTO VENTA LOMA DE LOS BERNAL" class="js-listing">
+    <a href="https://casas.trovit.com.co:443/detail/ffdaf79f-2c9e-3f7d-8206-52a845ae90e7?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=0&t_sec=190&pos=3&search_terms=&type=direct" target="_self" rel="nofollow" title="APARTAMENTO VENTA LOMA DE LOS BERNAL" class="js-listing">
         <div class="snippet-listing-image">
     <img loading="lazy" src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZmRhZjc5Zi0yYzllLTNmN2QtODIwNi01MmE4NDVhZTkwZTcvYTI4YWFkZTE4YjI1MDE0ZjM4ZGVkMmMyMjQ1MWViZmZkZDEyY2ZmNTY2NzQ4NGZmZmU0OTFiYjNjZDVhNzIyNS5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="APARTAMENTO VENTA LOMA DE LOS BERNAL" onerror="onErrorImage.apply(this)">
 
@@ -1559,7 +1559,7 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
                      class="js-show-extended-description">
             </button>
         </div>
-        <a href="https://casas.trovit.com.co:443/detail/ffdaf79f-2c9e-3f7d-8206-52a845ae90e7?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=0&t_sec=190&pos=3&search_terms=&type=direct" target="_blank" rel="nofollow" title="APARTAMENTO VENTA LOMA DE LOS BERNAL"
+        <a href="https://casas.trovit.com.co:443/detail/ffdaf79f-2c9e-3f7d-8206-52a845ae90e7?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=0&t_sec=190&pos=3&search_terms=&type=direct" target="_blank" rel="nofollow" title="APARTAMENTO VENTA LOMA DE LOS BERNAL"
            class="extended-description-go-to-details">Ver el anuncio completo</a>
     </div>
 </article>
@@ -1571,7 +1571,7 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
         data-section="190"
         
 >
-    <a href="https://casas.trovit.com.co:443/detail/ffd4fbb9-bc23-423c-be2d-772d74eb03e1?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=0&t_sec=190&pos=4&search_terms=&type=direct" target="_self" rel="nofollow" title="PR17367 Apartamento en venta en el sector Loma del Indio" class="js-listing">
+    <a href="https://casas.trovit.com.co:443/detail/ffd4fbb9-bc23-423c-be2d-772d74eb03e1?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=0&t_sec=190&pos=4&search_terms=&type=direct" target="_self" rel="nofollow" title="PR17367 Apartamento en venta en el sector Loma del Indio" class="js-listing">
         <div class="snippet-listing-image">
     <img loading="lazy" src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZDRmYmI5LWJjMjMtNDIzYy1iZTJkLTc3MmQ3NGViMDNlMS9mOTU1OGZmOC1iNTNkLTRlNmItYTNiOS00Mzk1NjdlYzJjODYuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="PR17367 Apartamento en venta en el sector Loma del Indio" onerror="onErrorImage.apply(this)">
 
@@ -1663,7 +1663,7 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
                      class="js-show-extended-description">
             </button>
         </div>
-        <a href="https://casas.trovit.com.co:443/detail/ffd4fbb9-bc23-423c-be2d-772d74eb03e1?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=0&t_sec=190&pos=4&search_terms=&type=direct" target="_blank" rel="nofollow" title="PR17367 Apartamento en venta en el sector Loma del Indio"
+        <a href="https://casas.trovit.com.co:443/detail/ffd4fbb9-bc23-423c-be2d-772d74eb03e1?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=0&t_sec=190&pos=4&search_terms=&type=direct" target="_blank" rel="nofollow" title="PR17367 Apartamento en venta en el sector Loma del Indio"
            class="extended-description-go-to-details">Ver el anuncio completo</a>
     </div>
 </article>
@@ -1675,7 +1675,7 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
         data-section="190"
         
 >
-    <a href="https://casas.trovit.com.co:443/detail/ffc44831-9847-390d-8578-1f3770092abb?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=0&t_sec=190&pos=5&search_terms=&type=direct" target="_self" rel="nofollow" title="Apartamento Amoblado Luxury con licencia hotelera" class="js-listing">
+    <a href="https://casas.trovit.com.co:443/detail/ffc44831-9847-390d-8578-1f3770092abb?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=0&t_sec=190&pos=5&search_terms=&type=direct" target="_self" rel="nofollow" title="Apartamento Amoblado Luxury con licencia hotelera" class="js-listing">
         <div class="snippet-listing-image">
     <img loading="lazy" src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZmM0NDgzMS05ODQ3LTM5MGQtODU3OC0xZjM3NzAwOTJhYmIvNGFjOWVkM2ZiZDczZmQ2OTMxYzM0Y2E3NzhhZDFiNjlmN2MzZjg4MDdjODllMzA4Yjk1OTRjM2QzMWVhYTdhYi5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="Apartamento Amoblado Luxury con licencia hotelera" onerror="onErrorImage.apply(this)">
 
@@ -1758,7 +1758,7 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
                      class="js-show-extended-description">
             </button>
         </div>
-        <a href="https://casas.trovit.com.co:443/detail/ffc44831-9847-390d-8578-1f3770092abb?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=0&t_sec=190&pos=5&search_terms=&type=direct" target="_blank" rel="nofollow" title="Apartamento Amoblado Luxury con licencia hotelera"
+        <a href="https://casas.trovit.com.co:443/detail/ffc44831-9847-390d-8578-1f3770092abb?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=0&t_sec=190&pos=5&search_terms=&type=direct" target="_blank" rel="nofollow" title="Apartamento Amoblado Luxury con licencia hotelera"
            class="extended-description-go-to-details">Ver el anuncio completo</a>
     </div>
 </article>
@@ -1770,7 +1770,7 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
         data-section="190"
         
 >
-    <a href="https://casas.trovit.com.co:443/detail/ffa71f33-0879-3632-a964-63bee41c25a1?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=0&t_sec=190&pos=6&search_terms=&type=direct" target="_self" rel="nofollow" title="PR13474 Casa en venta sector Altos del Poblado" class="js-listing">
+    <a href="https://casas.trovit.com.co:443/detail/ffa71f33-0879-3632-a964-63bee41c25a1?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=0&t_sec=190&pos=6&search_terms=&type=direct" target="_self" rel="nofollow" title="PR13474 Casa en venta sector Altos del Poblado" class="js-listing">
         <div class="snippet-listing-image">
     <img loading="lazy" src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci9mZmE3MWYzMy0wODc5LTM2MzItYTk2NC02M2JlZTQxYzI1YTEvYjExYmRiNDFiMTJkMmIyYWNmNGQ1ZGYzMGI0NDkxZGI1MGMzYzNlOWI4ZGUwNjk0MjY5ZGIxOWFjNDY5NTE3OC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="PR13474 Casa en venta sector Altos del Poblado" onerror="onErrorImage.apply(this)">
 
@@ -1857,7 +1857,7 @@ Apartamento para la venta en el barrio belen sector loma de los bernal este es u
                      class="js-show-extended-description">
             </button>
         </div>
-        <a href="https://casas.trovit.com.co:443/detail/ffa71f33-0879-3632-a964-63bee41c25a1?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=0&t_sec=190&pos=6&search_terms=&type=direct" target="_blank" rel="nofollow" title="PR13474 Casa en venta sector Altos del Poblado"
+        <a href="https://casas.trovit.com.co:443/detail/ffa71f33-0879-3632-a964-63bee41c25a1?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=0&t_sec=190&pos=6&search_terms=&type=direct" target="_blank" rel="nofollow" title="PR13474 Casa en venta sector Altos del Poblado"
            class="extended-description-go-to-details">Ver el anuncio completo</a>
     </div>
 </article>
@@ -1963,7 +1963,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="multienquiry__contact-label">Contacta con propiedades similares de otros anunciantes</div>
         <form class="multienquiry__similars-form" data-multienquiry-form>
             <div>    <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=1&t_sec=4000&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=1&t_sec=4000&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -1997,7 +1997,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         </a>
     </div>
     <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=1&t_sec=4000&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=1&t_sec=4000&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -2148,7 +2148,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="multienquiry__contact-label">Contacta con propiedades similares de otros anunciantes</div>
         <form class="multienquiry__similars-form" data-multienquiry-form>
             <div>    <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=1&t_sec=4004&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=1&t_sec=4004&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -2182,7 +2182,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         </a>
     </div>
     <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=1&t_sec=4004&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=1&t_sec=4004&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -2398,7 +2398,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="multienquiry__contact-label">Contacta con propiedades similares de otros anunciantes</div>
         <form class="multienquiry__similars-form" data-multienquiry-form>
             <div>    <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=1&t_sec=4090&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=1&t_sec=4090&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -2432,7 +2432,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         </a>
     </div>
     <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=1&t_sec=4090&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=1&t_sec=4090&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -2583,7 +2583,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="multienquiry__contact-label">Contacta con propiedades similares de otros anunciantes</div>
         <form class="multienquiry__similars-form" data-multienquiry-form>
             <div>    <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=1&t_sec=4004&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=1&t_sec=4004&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -2617,7 +2617,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         </a>
     </div>
     <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=1&t_sec=4004&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=1&t_sec=4004&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -2897,7 +2897,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         <div class="multienquiry__contact-label">Contacta con propiedades similares de otros anunciantes</div>
         <form class="multienquiry__similars-form" data-multienquiry-form>
             <div>    <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=1&t_sec=4090&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co:443/detail/fff6496b-587d-4b1a-8e00-78db8a6d4a82?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=1&t_sec=4090&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJpbmdlc3Rlci80YjIxODI3Yi0wOTg4LTRjYWUtOGE3Ny1hYjlhZGQ0ZGI5MGEvNGM5YzRjNzc3OTRkYmE3YjFmZTkxOTgyNWU1MDRjNWE0YjE0MzRmMDI1ZmM2N2M2ZDg3ZmM0MmE2NmU1MmIzNC5qcGVnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -2931,7 +2931,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         </a>
     </div>
     <div class="multienquiry__similars-wrapper">
-        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=abb5fc42-6540-4274-9309-f4943c34ffb1&page=1&t_sec=4090&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
+        <a href="https://casas.trovit.com.co:443/detail/ffe406ba-5a99-496d-8d12-07e5193f8562?t_pvid=33aab566-a7d8-46d7-bed8-9dde2cd26447&page=1&t_sec=4090&pos=2&search_terms=&type=direct" data-test="multienquiry-similar-snippet">
             <div class="similar-snippet">
                 <div class="similar-snippet__image">
                     <img src="https://img.trovit.com/eyJidWNrZXQiOiJwcmQtbGlmdWxsY29ubmVjdC1iYWNrZW5kLWIyYi1pbWFnZXMiLCJrZXkiOiJwcm9wZXJ0aWVzL2ZmZTQwNmJhLTVhOTktNDk2ZC04ZDEyLTA3ZTUxOTNmODU2Mi85NjgyM2NlYi0zNzQyLTQ4MWQtYWMyZC0xYTgyYjg3YmIwMTUuanBnIiwiYnJhbmQiOiJ0cm92aXQiLCJlZGl0cyI6eyJyb3RhdGUiOm51bGwsInJlc2l6ZSI6eyJ3aWR0aCI6MzYwLCJoZWlnaHQiOjI3MCwiZml0IjoiY292ZXIifX19" alt="similar_image">
@@ -3138,8 +3138,8 @@ Hemos enviado tu mensaje al anunciante.</span>
             id: "0194c892-64b0-7797-996b-88bff0e32618",
             proppitId: "0194c892-64b0-7797-996b-88bff0e32618",
             operationType: "RENT",
-            userId: "1791523611001818ecd9f73424ea672c841b48eefc4",
-            pageViewId: "abb5fc42-6540-4274-9309-f4943c34ffb1",
+            userId: "1791523611029e1c15eca354699ba7a5290b1471cab",
+            pageViewId: "33aab566-a7d8-46d7-bed8-9dde2cd26447",
             brand: "TROVIT",
             country: "CO",
             device: "DESKTOP",
@@ -3275,7 +3275,7 @@ Hemos enviado tu mensaje al anunciante.</span>
         if (window.eventBusInstance) {
             window.eventBusInstance.emit({
                 type: 'wl-page-loaded',
-                payload: {"pageViewId":"abb5fc42-6540-4274-9309-f4943c34ffb1","operationType":"SALE","typeId":1,"what":"","device":"DESKTOP","isSem":false,"currentOrigin":2}
+                payload: {"pageViewId":"33aab566-a7d8-46d7-bed8-9dde2cd26447","operationType":"SALE","typeId":1,"what":"","device":"DESKTOP","isSem":false,"currentOrigin":2}
             });
         }
     });
